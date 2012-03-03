@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/acts_as_versioned/test/fixtures/migrations
+END
+1_add_versioned_tables.rb
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/acts_as_versioned/test/fixtures/migrations/1_add_versioned_tables.rb
+END

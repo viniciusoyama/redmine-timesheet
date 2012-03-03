@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3297/tags/0.9.0/app/views/journals
+END
+_notes_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3297/tags/0.9.0/app/views/journals/_notes_form.rhtml
+END
+update.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3297/tags/0.9.0/app/views/journals/update.rjs
+END
+edit.rjs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3297/tags/0.9.0/app/views/journals/edit.rjs
+END

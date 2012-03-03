@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3297/tags/0.9.0/app/views/timelog
+END
+_list.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3297/tags/0.9.0/app/views/timelog/_list.rhtml
+END
+report.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/app/views/timelog/report.rhtml
+END
+_report_criteria.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3297/tags/0.9.0/app/views/timelog/_report_criteria.rhtml
+END
+details.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3297/tags/0.9.0/app/views/timelog/details.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3297/tags/0.9.0/app/views/timelog/edit.rhtml
+END
+_date_range.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3297/tags/0.9.0/app/views/timelog/_date_range.rhtml
+END

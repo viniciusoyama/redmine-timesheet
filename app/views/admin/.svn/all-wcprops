@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/3297/tags/0.9.0/app/views/admin
+END
+info.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3297/tags/0.9.0/app/views/admin/info.rhtml
+END
+plugins.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3297/tags/0.9.0/app/views/admin/plugins.rhtml
+END
+_menu.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3297/tags/0.9.0/app/views/admin/_menu.rhtml
+END
+_no_data.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/app/views/admin/_no_data.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3297/tags/0.9.0/app/views/admin/index.rhtml
+END
+projects.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/app/views/admin/projects.rhtml
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/svn/!svn/ver/3297/tags/0.9.0/app/views/account
+END
+password_recovery.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3297/tags/0.9.0/app/views/account/password_recovery.rhtml
+END
+lost_password.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3297/tags/0.9.0/app/views/account/lost_password.rhtml
+END
+register.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3297/tags/0.9.0/app/views/account/register.rhtml
+END
+login.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3297/tags/0.9.0/app/views/account/login.rhtml
+END

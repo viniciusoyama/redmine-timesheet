@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/svn/!svn/ver/3297/tags/0.9.0/lib/redmine/core_ext
+END
+string.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/lib/redmine/core_ext/string.rb
+END

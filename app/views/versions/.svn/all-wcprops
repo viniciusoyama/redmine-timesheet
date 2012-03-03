@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3297/tags/0.9.0/app/views/versions
+END
+show.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3297/tags/0.9.0/app/views/versions/show.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/app/views/versions/_form.rhtml
+END
+_issue_counts.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3297/tags/0.9.0/app/views/versions/_issue_counts.rhtml
+END
+_overview.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3297/tags/0.9.0/app/views/versions/_overview.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3297/tags/0.9.0/app/views/versions/edit.rhtml
+END

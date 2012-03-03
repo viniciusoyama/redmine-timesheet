@@ -1,0 +1,767 @@
+
+
+Processing ApplicationController#index (for ::1 at 2012-03-01 00:47:29) [GET]
+
+ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
+  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
+
+Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for ::1 at 2012-03-01 00:52:15) [GET]
+
+ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
+  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
+
+Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for ::1 at 2012-03-01 01:11:14) [GET]
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 276ms (View: 163, DB: 17) | 200 OK [http://localhost/redmine]
+
+
+Processing WelcomeController#index (for ::1 at 2012-03-01 01:12:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 19ms (View: 10, DB: 2) | 200 OK [http://localhost/redmine]
+
+
+Processing WelcomeController#index (for ::1 at 2012-03-01 01:13:35) [GET]
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 20ms (View: 11, DB: 2) | 200 OK [http://localhost/redmine]
+
+
+Processing ProjectsController#index (for ::1 at 2012-03-01 01:13:39) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 39ms (View: 31, DB: 2) | 200 OK [http://localhost/redmine/projects]
+
+
+Processing WelcomeController#index (for ::1 at 2012-03-01 01:13:41) [GET]
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 17ms (View: 8, DB: 3) | 200 OK [http://localhost/redmine/]
+
+
+Processing ProjectsController#index (for ::1 at 2012-03-01 01:14:22) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 14ms (View: 8, DB: 2) | 200 OK [http://localhost/redmine/projects]
+
+
+Processing WelcomeController#index (for ::1 at 2012-03-01 01:14:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 18ms (View: 8, DB: 3) | 200 OK [http://localhost/redmine/]
+
+
+Processing ApplicationController#index (for ::1 at 2012-03-01 01:15:03) [GET]
+
+ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
+  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
+
+Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for ::1 at 2012-03-01 01:15:05) [GET]
+
+ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
+  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
+
+Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for ::1 at 2012-03-01 01:15:16) [GET]
+
+ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
+  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
+
+Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for ::1 at 2012-03-01 01:15:19) [GET]
+
+ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
+  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
+
+Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for ::1 at 2012-03-01 01:15:56) [GET]
+
+ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
+  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
+
+Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
+
+
+Processing ApplicationController#index (for ::1 at 2012-03-01 01:15:59) [GET]
+
+ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
+  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
+
+Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for ::1 at 2012-03-01 01:16:14) [GET]
+  Parameters: {"controller"=>"welcome", "action"=>"index"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 195ms (View: 150, DB: 19) | 200 OK [http://localhost/redmine]
+
+
+Processing AccountController#login (for ::1 at 2012-03-01 01:16:18) [GET]
+  Parameters: {"controller"=>"account", "action"=>"login"}
+Rendering template within layouts/base
+Rendering account/login
+Completed in 18ms (View: 12, DB: 2) | 200 OK [http://localhost/redmine/login]
+
+
+Processing AccountController#login (for ::1 at 2012-03-01 01:16:23) [POST]
+  Parameters: {"username"=>"vinicius.oyama", "password"=>"[FILTERED]", "controller"=>"account", "back_url"=>"http%3A%2F%2Flocalhost%2Fredmine", "authenticity_token"=>"gdzRrkNqKEeGIiY3DXNVZY4EvyXbQbj63qFckIVe068=", "login"=>"Login »", "action"=>"login"}
+Rendering template within layouts/base
+Rendering account/login
+Completed in 78ms (View: 8, DB: 66) | 200 OK [http://localhost/redmine/login]
+
+
+Processing AccountController#login (for ::1 at 2012-03-01 01:16:26) [POST]
+  Parameters: {"username"=>"admin", "password"=>"[FILTERED]", "controller"=>"account", "back_url"=>"http%3A%2F%2Flocalhost%2Fredmine", "authenticity_token"=>"gdzRrkNqKEeGIiY3DXNVZY4EvyXbQbj63qFckIVe068=", "login"=>"Login »", "action"=>"login"}
+Redirected to http://localhost/redmine
+Completed in 51ms (DB: 42) | 302 Found [http://localhost/redmine/login]
+
+
+Processing WelcomeController#index (for ::1 at 2012-03-01 01:16:26) [GET]
+  Parameters: {"controller"=>"welcome", "action"=>"index"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 103ms (View: 20, DB: 79) | 200 OK [http://localhost/redmine]
+
+
+Processing TimesheetController#index (for ::1 at 2012-03-01 01:16:32) [GET]
+  Parameters: {"controller"=>"timesheet", "action"=>"index"}
+Rendering template within layouts/base
+Rendering timesheet/index
+Completed in 90ms (View: 39, DB: 46) | 200 OK [http://localhost/redmine/timesheet]
+
+
+Processing TimesheetController#refresh_calendar (for ::1 at 2012-03-01 01:16:39) [POST]
+  Parameters: {"new_year"=>"2012", "controller"=>"timesheet", "_"=>"", "new_month"=>"2", "authenticity_token"=>"e/q0nQ052+MdQsPQSP9MhpM1LihuAj8ffe4XoasspW0=", "action"=>"refresh_calendar"}
+Completed in 100ms (View: 89, DB: 9) | 200 OK [http://localhost/redmine/timesheet/refresh_calendar]
+
+
+Processing TimesheetController#refresh_timesheets (for ::1 at 2012-03-01 01:16:41) [POST]
+  Parameters: {"datestr"=>"Wednesday, 08 February 2012", "controller"=>"timesheet", "date"=>"2012-02-08", "_"=>"", "authenticity_token"=>"e/q0nQ052+MdQsPQSP9MhpM1LihuAj8ffe4XoasspW0=", "action"=>"refresh_timesheets"}
+Completed in 120ms (View: 21, DB: 95) | 200 OK [http://localhost/redmine/timesheet/refresh_timesheets]
+
+
+Processing TimesheetController#save_timesheet (for ::1 at 2012-03-01 01:16:50) [POST]
+  Parameters: {"tend"=>"", "new_timesheet_id"=>"22747", "controller"=>"timesheet", "date"=>"2012-02-08", "obs"=>"", "enumeration_id"=>"9", "_"=>"", "authenticity_token"=>"e/q0nQ052+MdQsPQSP9MhpM1LihuAj8ffe4XoasspW0=", "project_id"=>"0", "action"=>"save_timesheet", "tbegin"=>""}
+Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/redmine/timesheet/save_timesheet]
+
+
+Processing WelcomeController#index (for ::1 at 2012-03-01 10:29:03) [GET]
+  Parameters: {"controller"=>"welcome", "action"=>"index"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 17ms (View: 10, DB: 3) | 200 OK [http://localhost/redmine]
+
+
+Processing WelcomeController#index (for ::1 at 2012-03-01 10:29:03) [GET]
+  Parameters: {"controller"=>"welcome", "action"=>"index"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 25ms (View: 11, DB: 7) | 200 OK [http://localhost/redmine]
+
+
+Processing ProjectsController#index (for ::1 at 2012-03-01 10:29:07) [GET]
+  Parameters: {"controller"=>"projects", "action"=>"index"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 79ms (View: 50, DB: 24) | 200 OK [http://localhost/redmine/projects]
+
+
+Processing ProjectsController#show (for ::1 at 2012-03-01 10:29:14) [GET]
+  Parameters: {"id"=>"pa", "controller"=>"projects", "action"=>"show"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 502ms (View: 40, DB: 444) | 200 OK [http://localhost/redmine/projects/pa]
+
+
+Processing IssuesController#new (for ::1 at 2012-03-01 10:29:20) [GET]
+  Parameters: {"controller"=>"issues", "project_id"=>"pa", "action"=>"new"}
+Rendering template within layouts/base
+Rendering issues/new
+Completed in 628ms (View: 224, DB: 185) | 200 OK [http://localhost/redmine/projects/pa/issues/new]
+
+
+Processing IssuesController#new (for ::1 at 2012-03-01 10:29:24) [POST]
+  Parameters: {"issue"=>{"assigned_to_id"=>"", "description"=>"ets", "status_id"=>"1", "due_date"=>"", "priority_id"=>"4", "tracker_id"=>"1", "subject"=>"etsest", "start_date"=>"2012-03-01", "done_ratio"=>"0", "estimated_hours"=>""}, "controller"=>"issues", "attachments"=>{"1"=>{"description"=>""}}, "project_id"=>"pa", "authenticity_token"=>"e/q0nQ052+MdQsPQSP9MhpM1LihuAj8ffe4XoasspW0=", "action"=>"new", "continue"=>"Create and continue"}
+Redirected to http://localhost/redmine/projects/pa/issues/new?tracker_id=1
+Completed in 237ms (DB: 137) | 302 Found [http://localhost/redmine/projects/pa/issues/new]
+
+
+Processing IssuesController#new (for ::1 at 2012-03-01 10:29:24) [GET]
+  Parameters: {"tracker_id"=>"1", "controller"=>"issues", "project_id"=>"pa", "action"=>"new"}
+Rendering template within layouts/base
+Rendering issues/new
+Completed in 103ms (View: 82, DB: 10) | 200 OK [http://localhost/redmine/projects/pa/issues/new?tracker_id=1]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2012-03-01 10:38:09) [GET]
+  Parameters: {"controller"=>"welcome", "action"=>"index"}
+
+NoMethodError (undefined method `[]' for nil:NilClass):
+  app/models/setting.rb:100:in `value='
+  app/models/setting.rb:166:in `new'
+  app/models/setting.rb:166:in `find_or_default'
+  app/models/setting.rb:107:in `[]'
+  app/models/setting.rb:140:in `rest_api_enabled?'
+  app/controllers/application_controller.rb:73:in `find_current_user'
+  app/controllers/application_controller.rb:56:in `user_setup'
+  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing WelcomeController#index (for ::1 at 2012-03-01 10:38:17) [GET]
+  Parameters: {"controller"=>"welcome", "action"=>"index"}
+Rendering template within layouts/base
+Rendering welcome/index
+
+ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #22 of app/views/welcome/index.rhtml:
+19: 		<ul>
+20: 		<% for project in @projects %>
+21: 			<li>
+22: 			<%= link_to h(project.name), :controller => 'projects', :action => 'show', :id => project %> (<%= format_time(project.created_on) %>)
+23: 			<%= textilizable project.short_description, :project => project %>
+24: 			</li>
+25: 		<% end %>
+
+    app/models/setting.rb:100:in `value='
+    app/models/setting.rb:166:in `new'
+    app/models/setting.rb:166:in `find_or_default'
+    app/models/setting.rb:107:in `[]'
+    app/models/setting.rb:136:in `time_format'
+    lib/redmine/i18n.rb:48:in `format_time'
+    app/views/welcome/index.rhtml:22:in `_run_rhtml_app47views47welcome47index46rhtml'
+    app/views/welcome/index.rhtml:20:in `each'
+    app/views/welcome/index.rhtml:20:in `_run_rhtml_app47views47welcome47index46rhtml'
+    passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+    passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+    passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+    passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    passenger (3.0.11) helper-scripts/passenger-spawn-server:99
+
+Rendering /Users/viny/Downloads/redmine92/ok/public/500.html (500 Internal Server Error)
+
+
+Processing WelcomeController#index (for ::1 at 2012-03-01 10:38:24) [GET]
+  Parameters: {"controller"=>"welcome", "action"=>"index"}
+Rendering template within layouts/base
+Rendering welcome/index
+
+ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #22 of app/views/welcome/index.rhtml:
+19: 		<ul>
+20: 		<% for project in @projects %>
+21: 			<li>
+22: 			<%= link_to h(project.name), :controller => 'projects', :action => 'show', :id => project %> (<%= format_time(project.created_on) %>)
+23: 			<%= textilizable project.short_description, :project => project %>
+24: 			</li>
+25: 		<% end %>
+
+    app/models/setting.rb:100:in `value='
+    app/models/setting.rb:166:in `new'
+    app/models/setting.rb:166:in `find_or_default'
+    app/models/setting.rb:107:in `[]'
+    app/models/setting.rb:136:in `time_format'
+    lib/redmine/i18n.rb:48:in `format_time'
+    app/views/welcome/index.rhtml:22:in `_run_rhtml_app47views47welcome47index46rhtml'
+    app/views/welcome/index.rhtml:20:in `each'
+    app/views/welcome/index.rhtml:20:in `_run_rhtml_app47views47welcome47index46rhtml'
+    passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+    passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+    passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+    passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    passenger (3.0.11) helper-scripts/passenger-spawn-server:99
+
+Rendering /Users/viny/Downloads/redmine92/ok/public/500.html (500 Internal Server Error)
+
+
+Processing WelcomeController#index (for ::1 at 2012-03-01 10:38:27) [GET]
+  Parameters: {"controller"=>"welcome", "action"=>"index"}
+Rendering template within layouts/base
+Rendering welcome/index
+
+ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #22 of app/views/welcome/index.rhtml:
+19: 		<ul>
+20: 		<% for project in @projects %>
+21: 			<li>
+22: 			<%= link_to h(project.name), :controller => 'projects', :action => 'show', :id => project %> (<%= format_time(project.created_on) %>)
+23: 			<%= textilizable project.short_description, :project => project %>
+24: 			</li>
+25: 		<% end %>
+
+    app/models/setting.rb:100:in `value='
+    app/models/setting.rb:166:in `new'
+    app/models/setting.rb:166:in `find_or_default'
+    app/models/setting.rb:107:in `[]'
+    app/models/setting.rb:136:in `time_format'
+    lib/redmine/i18n.rb:48:in `format_time'
+    app/views/welcome/index.rhtml:22:in `_run_rhtml_app47views47welcome47index46rhtml'
+    app/views/welcome/index.rhtml:20:in `each'
+    app/views/welcome/index.rhtml:20:in `_run_rhtml_app47views47welcome47index46rhtml'
+    passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+    passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+    passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+    passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
+    passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+    passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+    passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+    passenger (3.0.11) helper-scripts/passenger-spawn-server:99
+
+Rendering /Users/viny/Downloads/redmine92/ok/public/500.html (500 Internal Server Error)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2012-03-01 10:39:15) [GET]
+  Parameters: {"controller"=>"welcome", "action"=>"index"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 260ms (View: 211, DB: 18) | 200 OK [http://redmine.localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2012-03-01 10:39:25) [GET]
+  Parameters: {"controller"=>"projects", "action"=>"index"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 19ms (View: 11, DB: 2) | 200 OK [http://redmine.localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2012-03-01 10:39:27) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"pa", "action"=>"show"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 72ms (View: 31, DB: 24) | 200 OK [http://redmine.localhost/projects/pa]
+
+
+Processing ApplicationController#index (for ::1 at 2012-03-01 10:39:48) [GET]
+
+ActionController::RoutingError (No route matches "/as/app/webroot/" with {:method=>:get}):
+  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
+  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
+  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
+  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
+  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
+
+Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2012-03-01 10:41:13) [GET]
+  Parameters: {"controller"=>"welcome", "action"=>"index"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 211ms (View: 164, DB: 16) | 200 OK [http://redmine.localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2012-03-01 11:27:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 316ms (View: 161, DB: 90) | 200 OK [http://redmine.localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2012-03-01 11:27:08) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 22ms (View: 12, DB: 2) | 200 OK [http://redmine.localhost/projects]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2012-03-01 11:27:13) [GET]
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 49ms (View: 8, DB: 2) | 200 OK [http://as.localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2012-03-01 12:09:49) [GET]
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 187ms (View: 67, DB: 53) | 200 OK [http://redmine.localhost/]
+
+
+Processing WelcomeController#index (for 127.0.0.1 at 2012-03-01 12:09:51) [GET]
+  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 16ms (View: 8, DB: 2) | 200 OK [http://redmine.localhost/]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2012-03-01 12:09:54) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 148ms (View: 23, DB: 2) | 200 OK [http://redmine.localhost/projects]
+
+
+Processing AccountController#login (for 127.0.0.1 at 2012-03-01 12:09:55) [GET]
+  Parameters: {"action"=>"login", "controller"=>"account"}
+Rendering template within layouts/base
+Rendering account/login
+Completed in 17ms (View: 12, DB: 1) | 200 OK [http://redmine.localhost/login]
+
+
+Processing AccountController#login (for 127.0.0.1 at 2012-03-01 12:09:59) [POST]
+  Parameters: {"password"=>"[FILTERED]", "login"=>"Login »", "username"=>"admin", "action"=>"login", "back_url"=>"http%3A%2F%2Fredmine.localhost%2Fprojects", "controller"=>"account", "authenticity_token"=>"RX2B1aqR81XlKWn80vzEmoiUd50pcFXk/wUg8PUL154="}
+Redirected to http://redmine.localhost/projects
+Completed in 9ms (DB: 2) | 302 Found [http://redmine.localhost/login]
+
+
+Processing ProjectsController#index (for 127.0.0.1 at 2012-03-01 12:09:59) [GET]
+  Parameters: {"action"=>"index", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 21ms (View: 14, DB: 4) | 200 OK [http://redmine.localhost/projects]
+
+
+Processing ProjectsController#show (for 127.0.0.1 at 2012-03-01 12:10:01) [GET]
+  Parameters: {"id"=>"pa", "action"=>"show", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 79ms (View: 42, DB: 22) | 200 OK [http://redmine.localhost/projects/pa]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2012-03-01 12:10:03) [GET]
+  Parameters: {"action"=>"new", "project_id"=>"pa", "controller"=>"issues"}
+Rendering template within layouts/base
+Rendering issues/new
+Completed in 218ms (View: 182, DB: 18) | 200 OK [http://redmine.localhost/projects/pa/issues/new]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2012-03-01 12:10:06) [POST]
+  Parameters: {"issue"=>{"assigned_to_id"=>"", "due_date"=>"", "start_date"=>"2012-03-01", "priority_id"=>"4", "estimated_hours"=>"", "status_id"=>"1", "description"=>"sdfa", "subject"=>"sdaf", "done_ratio"=>"0", "tracker_id"=>"1"}, "continue"=>"Create and continue", "attachments"=>{"1"=>{"description"=>""}}, "action"=>"new", "project_id"=>"pa", "controller"=>"issues", "authenticity_token"=>"x00C/4FNCMd0GUj+QHPVOu94Wh5w6W00XJhTCRifJh4="}
+Redirected to http://redmine.localhost/projects/pa/issues/new?tracker_id=1
+Completed in 91ms (DB: 14) | 302 Found [http://redmine.localhost/projects/pa/issues/new]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2012-03-01 12:10:06) [GET]
+  Parameters: {"action"=>"new", "project_id"=>"pa", "controller"=>"issues", "tracker_id"=>"1"}
+Rendering template within layouts/base
+Rendering issues/new
+Completed in 43ms (View: 27, DB: 8) | 200 OK [http://redmine.localhost/projects/pa/issues/new?tracker_id=1]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2012-03-01 12:16:28) [POST]
+  Parameters: {"issue"=>{"assigned_to_id"=>"", "due_date"=>"", "start_date"=>"2012-03-01", "priority_id"=>"4", "estimated_hours"=>"", "status_id"=>"1", "description"=>"fdas", "subject"=>"dsaf", "done_ratio"=>"0", "tracker_id"=>"1"}, "continue"=>"Create and continue", "attachments"=>{"1"=>{"description"=>""}}, "action"=>"new", "project_id"=>"pa", "controller"=>"issues", "authenticity_token"=>"x00C/4FNCMd0GUj+QHPVOu94Wh5w6W00XJhTCRifJh4="}
+Redirected to http://redmine.localhost/projects/pa/issues/new?tracker_id=1
+Completed in 165ms (DB: 81) | 302 Found [http://redmine.localhost/projects/pa/issues/new]
+
+
+Processing IssuesController#new (for 127.0.0.1 at 2012-03-01 12:16:28) [GET]
+  Parameters: {"action"=>"new", "project_id"=>"pa", "controller"=>"issues", "tracker_id"=>"1"}
+Rendering template within layouts/base
+Rendering issues/new
+Completed in 49ms (View: 33, DB: 8) | 200 OK [http://redmine.localhost/projects/pa/issues/new?tracker_id=1]

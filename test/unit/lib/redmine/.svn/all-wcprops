@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/lib/redmine
+END
+menu_manager_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/lib/redmine/menu_manager_test.rb
+END
+plugin_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/lib/redmine/plugin_test.rb
+END
+wiki_formatting.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/lib/redmine/wiki_formatting.rb
+END
+i18n_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/lib/redmine/i18n_test.rb
+END
+hook_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/lib/redmine/hook_test.rb
+END
+access_control_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/lib/redmine/access_control_test.rb
+END
+mime_type_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/lib/redmine/mime_type_test.rb
+END
+unified_diff_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/lib/redmine/unified_diff_test.rb
+END

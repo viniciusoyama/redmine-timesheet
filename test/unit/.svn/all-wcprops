@@ -1,0 +1,347 @@
+K 25
+svn:wc:ra_dav:version-url
+V 39
+/svn/!svn/ver/3297/tags/0.9.0/test/unit
+END
+document_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/document_test.rb
+END
+token_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/token_test.rb
+END
+repository_git_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/repository_git_test.rb
+END
+repository_mercurial_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/repository_mercurial_test.rb
+END
+mercurial_adapter_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/mercurial_adapter_test.rb
+END
+git_adapter_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/git_adapter_test.rb
+END
+filesystem_adapter_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/filesystem_adapter_test.rb
+END
+issue_relation_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/issue_relation_test.rb
+END
+version_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/version_test.rb
+END
+enumeration_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/enumeration_test.rb
+END
+board_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/board_test.rb
+END
+issue_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/issue_test.rb
+END
+issue_status_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/issue_status_test.rb
+END
+time_entry_activity_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/time_entry_activity_test.rb
+END
+tracker_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/tracker_test.rb
+END
+repository_subversion_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/repository_subversion_test.rb
+END
+repository_bazaar_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/repository_bazaar_test.rb
+END
+changeset_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/changeset_test.rb
+END
+role_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/role_test.rb
+END
+comment_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/comment_test.rb
+END
+wiki_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/wiki_test.rb
+END
+calendar_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/calendar_test.rb
+END
+journal_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/journal_test.rb
+END
+document_category_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/document_category_test.rb
+END
+default_data_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/default_data_test.rb
+END
+user_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/user_test.rb
+END
+mail_handler_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/mail_handler_test.rb
+END
+repository_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/repository_test.rb
+END
+time_entry_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/time_entry_test.rb
+END
+auth_source_ldap_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/auth_source_ldap_test.rb
+END
+principal_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/principal_test.rb
+END
+repository_filesystem_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/repository_filesystem_test.rb
+END
+message_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/message_test.rb
+END
+wiki_redirect_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/wiki_redirect_test.rb
+END
+issue_category_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/issue_category_test.rb
+END
+attachment_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/attachment_test.rb
+END
+issue_priority_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/issue_priority_test.rb
+END
+repository_cvs_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/repository_cvs_test.rb
+END
+repository_darcs_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/repository_darcs_test.rb
+END
+group_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/group_test.rb
+END
+activity_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/activity_test.rb
+END
+watcher_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/watcher_test.rb
+END
+wiki_content_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/wiki_content_test.rb
+END
+enabled_module_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/enabled_module_test.rb
+END
+subversion_adapter_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/subversion_adapter_test.rb
+END
+wiki_page_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/wiki_page_test.rb
+END
+query_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/query_test.rb
+END
+search_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/search_test.rb
+END
+custom_value_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/custom_value_test.rb
+END
+project_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/project_test.rb
+END
+member_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/member_test.rb
+END
+mailer_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/mailer_test.rb
+END
+news_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/news_test.rb
+END
+user_preference_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/user_preference_test.rb
+END
+custom_field_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/custom_field_test.rb
+END
+setting_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/setting_test.rb
+END
+testing_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3297/tags/0.9.0/test/unit/testing_test.rb
+END

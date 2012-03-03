@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 49
+/svn/!svn/ver/3297/tags/0.9.0/app/views/workflows
+END
+copy.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/app/views/workflows/copy.rhtml
+END
+_action_menu.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3297/tags/0.9.0/app/views/workflows/_action_menu.rhtml
+END
+edit.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/app/views/workflows/edit.rhtml
+END
+index.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3297/tags/0.9.0/app/views/workflows/index.rhtml
+END

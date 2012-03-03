@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svn/!svn/ver/3297/tags/0.9.0/public
+END
+dispatch.fcgi.example
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3297/tags/0.9.0/public/dispatch.fcgi.example
+END
+500.html
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/3297/tags/0.9.0/public/500.html
+END
+404.html
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svn/!svn/ver/3297/tags/0.9.0/public/404.html
+END
+dispatch.cgi.example
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/3297/tags/0.9.0/public/dispatch.cgi.example
+END
+.htaccess
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/3297/tags/0.9.0/public/.htaccess
+END
+dispatch.rb.example
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3297/tags/0.9.0/public/dispatch.rb.example
+END
+favicon.ico
+K 25
+svn:wc:ra_dav:version-url
+V 48
+/svn/!svn/ver/3297/tags/0.9.0/public/favicon.ico
+END

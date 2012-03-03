@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/acts_as_versioned/test/fixtures
+END
+pages.yml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/acts_as_versioned/test/fixtures/pages.yml
+END
+locked_pages.yml
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/acts_as_versioned/test/fixtures/locked_pages.yml
+END
+landmark_versions.yml
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/acts_as_versioned/test/fixtures/landmark_versions.yml
+END
+locked_pages_revisions.yml
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/acts_as_versioned/test/fixtures/locked_pages_revisions.yml
+END
+page_versions.yml
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/acts_as_versioned/test/fixtures/page_versions.yml
+END
+authors.yml
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/acts_as_versioned/test/fixtures/authors.yml
+END
+widget.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/acts_as_versioned/test/fixtures/widget.rb
+END
+landmark.rb
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/acts_as_versioned/test/fixtures/landmark.rb
+END
+landmarks.yml
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/acts_as_versioned/test/fixtures/landmarks.yml
+END
+page.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/acts_as_versioned/test/fixtures/page.rb
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars
+END
+role_exemplar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars/role_exemplar.rb
+END
+query_exemplar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars/query_exemplar.rb
+END
+version_exemplar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars/version_exemplar.rb
+END
+custom_value_exemplar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars/custom_value_exemplar.rb
+END
+enumeration_exemplar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars/enumeration_exemplar.rb
+END
+project_exemplar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars/project_exemplar.rb
+END
+member_exemplar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars/member_exemplar.rb
+END
+issue_exemplar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars/issue_exemplar.rb
+END
+issue_status_exemplar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars/issue_status_exemplar.rb
+END
+tracker_exemplar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars/tracker_exemplar.rb
+END
+custom_field_exemplar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars/custom_field_exemplar.rb
+END
+time_entry_activity.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars/time_entry_activity.rb
+END
+user_exemplar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars/user_exemplar.rb
+END
+time_entry_exemplar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/3297/tags/0.9.0/test/exemplars/time_entry_exemplar.rb
+END

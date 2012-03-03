@@ -1,0 +1,37 @@
+10
+
+dir
+9009
+http://redmine.rubyforge.org/svn/tags/0.9.0/lib/generators
+http://redmine.rubyforge.org/svn
+
+
+
+2009-10-17T21:08:33.644420Z
+2926
+edavis10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e93f8b46-1217-0410-a6f0-8f06a7374b81
+
+redmine_plugin
+dir
+
+redmine_plugin_model
+dir
+
+redmine_plugin_controller
+dir
+

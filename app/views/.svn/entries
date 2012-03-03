@@ -1,0 +1,139 @@
+10
+
+dir
+9009
+http://redmine.rubyforge.org/svn/tags/0.9.0/app/views
+http://redmine.rubyforge.org/svn
+
+
+
+2010-01-09T10:04:21.285170Z
+3287
+jplang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e93f8b46-1217-0410-a6f0-8f06a7374b81
+
+watchers
+dir
+
+my
+dir
+
+members
+dir
+
+welcome
+dir
+
+journals
+dir
+
+workflows
+dir
+
+reports
+dir
+
+timelog
+dir
+
+settings
+dir
+
+custom_fields
+dir
+
+layouts
+dir
+
+users
+dir
+
+auth_sources
+dir
+
+search
+dir
+
+messages
+dir
+
+versions
+dir
+
+issue_relations
+dir
+
+mailer
+dir
+
+boards
+dir
+
+attachments
+dir
+
+news
+dir
+
+trackers
+dir
+
+groups
+dir
+
+issue_statuses
+dir
+
+roles
+dir
+
+wikis
+dir
+
+repositories
+dir
+
+admin
+dir
+
+common
+dir
+
+projects
+dir
+
+account
+dir
+
+issue_categories
+dir
+
+documents
+dir
+
+wiki
+dir
+
+enumerations
+dir
+
+issues
+dir
+
+queries
+dir
+

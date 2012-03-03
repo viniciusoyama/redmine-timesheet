@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3297/tags/0.9.0/lib/redmine/scm/adapters/mercurial
+END
+hg-template-0.9.5.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3297/tags/0.9.0/lib/redmine/scm/adapters/mercurial/hg-template-0.9.5.tmpl
+END
+hg-template-1.0.tmpl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3297/tags/0.9.0/lib/redmine/scm/adapters/mercurial/hg-template-1.0.tmpl
+END

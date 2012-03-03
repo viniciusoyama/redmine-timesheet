@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/lib/engines/rails_extensions
+END
+form_tag_helpers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/lib/engines/rails_extensions/form_tag_helpers.rb
+END
+asset_helpers.rb
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/lib/engines/rails_extensions/asset_helpers.rb
+END
+dependencies.rb
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/lib/engines/rails_extensions/dependencies.rb
+END
+rails.rb
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/lib/engines/rails_extensions/rails.rb
+END
+migrations.rb
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/lib/engines/rails_extensions/migrations.rb
+END

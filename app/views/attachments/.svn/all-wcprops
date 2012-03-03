@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/3297/tags/0.9.0/app/views/attachments
+END
+_links.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3297/tags/0.9.0/app/views/attachments/_links.rhtml
+END
+file.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3297/tags/0.9.0/app/views/attachments/file.rhtml
+END
+_form.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3297/tags/0.9.0/app/views/attachments/_form.rhtml
+END
+diff.rhtml
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3297/tags/0.9.0/app/views/attachments/diff.rhtml
+END

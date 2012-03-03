@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/test/lib
+END
+render_information.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/test/lib/render_information.rb
+END
+app_and_plugin_lib_model.rb
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/test/lib/app_and_plugin_lib_model.rb
+END
+engines_test_helper.rb
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/test/lib/engines_test_helper.rb
+END

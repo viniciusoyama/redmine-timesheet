@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 46
+/svn/!svn/ver/3297/tags/0.9.0/test/integration
+END
+api_token_login_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3297/tags/0.9.0/test/integration/api_token_login_test.rb
+END
+application_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/!svn/ver/3297/tags/0.9.0/test/integration/application_test.rb
+END
+admin_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/test/integration/admin_test.rb
+END
+http_basic_login_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3297/tags/0.9.0/test/integration/http_basic_login_test.rb
+END
+projects_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svn/!svn/ver/3297/tags/0.9.0/test/integration/projects_test.rb
+END
+issues_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3297/tags/0.9.0/test/integration/issues_test.rb
+END
+account_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/svn/!svn/ver/3297/tags/0.9.0/test/integration/account_test.rb
+END
+http_basic_login_with_api_token_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3297/tags/0.9.0/test/integration/http_basic_login_with_api_token_test.rb
+END
+disabled_rest_api_test.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3297/tags/0.9.0/test/integration/disabled_rest_api_test.rb
+END

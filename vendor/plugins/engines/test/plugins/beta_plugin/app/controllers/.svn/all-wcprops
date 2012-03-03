@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/test/plugins/beta_plugin/app/controllers
+END
+app_and_plugin_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/test/plugins/beta_plugin/app/controllers/app_and_plugin_controller.rb
+END
+shared_plugin_controller.rb
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/test/plugins/beta_plugin/app/controllers/shared_plugin_controller.rb
+END

@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler
+END
+ticket_with_cc.eml
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler/ticket_with_cc.eml
+END
+ticket_with_attributes.eml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler/ticket_with_attributes.eml
+END
+ticket_with_attachment.eml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler/ticket_with_attachment.eml
+END
+message_reply_by_subject.eml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler/message_reply_by_subject.eml
+END
+ticket_html_only.eml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler/ticket_html_only.eml
+END
+ticket_by_unknown_user.eml
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler/ticket_by_unknown_user.eml
+END
+ticket_with_spaces_between_attribute_and_separator.eml
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler/ticket_with_spaces_between_attribute_and_separator.eml
+END
+ticket_reply_with_status.eml
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler/ticket_reply_with_status.eml
+END
+ticket_on_given_project.eml
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler/ticket_on_given_project.eml
+END
+ticket_reply.eml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler/ticket_reply.eml
+END
+ticket_with_custom_fields.eml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler/ticket_with_custom_fields.eml
+END
+message_reply.eml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler/message_reply.eml
+END
+ticket_from_emission_address.eml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler/ticket_from_emission_address.eml
+END
+ticket_without_from_header.eml
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/!svn/ver/3297/tags/0.9.0/test/fixtures/mail_handler/ticket_without_from_header.eml
+END

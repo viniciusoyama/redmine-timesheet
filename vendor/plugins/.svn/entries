@@ -1,0 +1,82 @@
+10
+
+dir
+9009
+http://redmine.rubyforge.org/svn/tags/0.9.0/vendor/plugins
+http://redmine.rubyforge.org/svn
+
+
+
+2009-12-18T14:41:37.649419Z
+3186
+jplang
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e93f8b46-1217-0410-a6f0-8f06a7374b81
+
+ruby-net-ldap-0.0.4
+dir
+
+acts_as_attachable
+dir
+
+acts_as_searchable
+dir
+
+acts_as_watchable
+dir
+
+engines
+dir
+
+classic_pagination
+dir
+
+acts_as_versioned
+dir
+
+acts_as_tree
+dir
+
+acts_as_customizable
+dir
+
+prepend_engine_views
+dir
+
+rfpdf
+dir
+
+acts_as_activity_provider
+dir
+
+coderay-0.7.6.227
+dir
+
+gravatar
+dir
+
+acts_as_list
+dir
+
+open_id_authentication
+dir
+
+awesome_nested_set
+dir
+
+acts_as_event
+dir
+

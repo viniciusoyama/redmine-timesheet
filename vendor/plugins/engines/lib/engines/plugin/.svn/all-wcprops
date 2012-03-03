@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/lib/engines/plugin
+END
+locator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/lib/engines/plugin/locator.rb
+END
+migrator.rb
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/lib/engines/plugin/migrator.rb
+END
+loader.rb
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/lib/engines/plugin/loader.rb
+END
+list.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/engines/lib/engines/plugin/list.rb
+END

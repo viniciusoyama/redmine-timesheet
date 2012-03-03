@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 51
+/svn/!svn/ver/3297/tags/0.9.0/app/models/repository
+END
+subversion.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3297/tags/0.9.0/app/models/repository/subversion.rb
+END
+bazaar.rb
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/!svn/ver/3297/tags/0.9.0/app/models/repository/bazaar.rb
+END
+git.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3297/tags/0.9.0/app/models/repository/git.rb
+END
+mercurial.rb
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/svn/!svn/ver/3297/tags/0.9.0/app/models/repository/mercurial.rb
+END
+filesystem.rb
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/svn/!svn/ver/3297/tags/0.9.0/app/models/repository/filesystem.rb
+END
+cvs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/svn/!svn/ver/3297/tags/0.9.0/app/models/repository/cvs.rb
+END
+darcs.rb
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/app/models/repository/darcs.rb
+END

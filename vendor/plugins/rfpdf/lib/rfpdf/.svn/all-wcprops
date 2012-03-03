@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/rfpdf/lib/rfpdf
+END
+chinese.rb
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/rfpdf/lib/rfpdf/chinese.rb
+END
+fpdf.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/rfpdf/lib/rfpdf/fpdf.rb
+END
+korean.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/rfpdf/lib/rfpdf/korean.rb
+END
+rfpdf.rb
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/rfpdf/lib/rfpdf/rfpdf.rb
+END
+makefont.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/rfpdf/lib/rfpdf/makefont.rb
+END
+bookmark.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/rfpdf/lib/rfpdf/bookmark.rb
+END
+fpdf_eps.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/rfpdf/lib/rfpdf/fpdf_eps.rb
+END
+japanese.rb
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/rfpdf/lib/rfpdf/japanese.rb
+END
+view.rb
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/rfpdf/lib/rfpdf/view.rb
+END
+errors.rb
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3297/tags/0.9.0/vendor/plugins/rfpdf/lib/rfpdf/errors.rb
+END
