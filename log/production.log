@@ -1,477 +1,156 @@
+# Logfile created on Sat Mar 03 05:50:15 +0000 2012
 
-
-Processing ApplicationController#index (for ::1 at 2012-03-01 00:47:29) [GET]
-
-ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
-  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
-
-Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
-
-
-Processing ApplicationController#index (for ::1 at 2012-03-01 00:52:15) [GET]
-
-ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
-  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
-
-Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
-
-
-Processing WelcomeController#index (for ::1 at 2012-03-01 01:11:14) [GET]
-  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Processing MyController#page (for 187.22.169.73 at 2012-03-03 05:50:18) [GET]
+  Parameters: {"controller"=>"my", "action"=>"page"}
 Rendering template within layouts/base
-Rendering welcome/index
-Completed in 276ms (View: 163, DB: 17) | 200 OK [http://localhost/redmine]
+Rendering my/page
+Completed in 215ms (View: 168, DB: 10) | 200 OK [http://teste.viniciusoyama.com/my/page]
 
 
-Processing WelcomeController#index (for ::1 at 2012-03-01 01:12:57) [GET]
-  Parameters: {"action"=>"index", "controller"=>"welcome"}
-Rendering template within layouts/base
-Rendering welcome/index
-Completed in 19ms (View: 10, DB: 2) | 200 OK [http://localhost/redmine]
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 05:50:20) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering admin/index
+Completed in 28ms (View: 21, DB: 0) | 200 OK [http://teste.viniciusoyama.com/admin]
 
 
-Processing WelcomeController#index (for ::1 at 2012-03-01 01:13:35) [GET]
-  Parameters: {"action"=>"index", "controller"=>"welcome"}
-Rendering template within layouts/base
-Rendering welcome/index
-Completed in 20ms (View: 11, DB: 2) | 200 OK [http://localhost/redmine]
+Processing SettingsController#index (for 187.22.169.73 at 2012-03-03 05:50:23) [GET]
+  Parameters: {"controller"=>"settings", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering settings/edit
+Completed in 134ms (View: 121, DB: 8) | 200 OK [http://teste.viniciusoyama.com/settings]
 
 
-Processing ProjectsController#index (for ::1 at 2012-03-01 01:13:39) [GET]
-  Parameters: {"action"=>"index", "controller"=>"projects"}
-Rendering template within layouts/base
-Rendering projects/index
-Completed in 39ms (View: 31, DB: 2) | 200 OK [http://localhost/redmine/projects]
+Processing AdminController#test_email (for 187.22.169.73 at 2012-03-03 05:50:27) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"test_email"}
+Redirected to http://teste.viniciusoyama.com/settings/edit?tab=notifications
+Completed in 14ms (DB: 0) | 302 Found [http://teste.viniciusoyama.com/admin/test_email]
 
 
-Processing WelcomeController#index (for ::1 at 2012-03-01 01:13:41) [GET]
-  Parameters: {"action"=>"index", "controller"=>"welcome"}
-Rendering template within layouts/base
-Rendering welcome/index
-Completed in 17ms (View: 8, DB: 3) | 200 OK [http://localhost/redmine/]
+Processing SettingsController#edit (for 187.22.169.73 at 2012-03-03 05:50:27) [GET]
+  Parameters: {"controller"=>"settings", "action"=>"edit", "tab"=>"notifications"}
+Rendering template within layouts/admin
+Rendering settings/edit
+Completed in 150ms (View: 147, DB: 1) | 200 OK [http://teste.viniciusoyama.com/settings/edit?tab=notifications]
 
 
-Processing ProjectsController#index (for ::1 at 2012-03-01 01:14:22) [GET]
-  Parameters: {"action"=>"index", "controller"=>"projects"}
-Rendering template within layouts/base
-Rendering projects/index
-Completed in 14ms (View: 8, DB: 2) | 200 OK [http://localhost/redmine/projects]
-
-
-Processing WelcomeController#index (for ::1 at 2012-03-01 01:14:23) [GET]
-  Parameters: {"action"=>"index", "controller"=>"welcome"}
-Rendering template within layouts/base
-Rendering welcome/index
-Completed in 18ms (View: 8, DB: 3) | 200 OK [http://localhost/redmine/]
-
-
-Processing ApplicationController#index (for ::1 at 2012-03-01 01:15:03) [GET]
-
-ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
-  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
-
-Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
-
-
-Processing ApplicationController#index (for ::1 at 2012-03-01 01:15:05) [GET]
-
-ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
-  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
-
-Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
-
-
-Processing ApplicationController#index (for ::1 at 2012-03-01 01:15:16) [GET]
-
-ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
-  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
-
-Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
-
-
-Processing ApplicationController#index (for ::1 at 2012-03-01 01:15:19) [GET]
-
-ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
-  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
-
-Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
-
-
-Processing ApplicationController#index (for ::1 at 2012-03-01 01:15:56) [GET]
-
-ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
-  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
-
-Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
-
-
-Processing ApplicationController#index (for ::1 at 2012-03-01 01:15:59) [GET]
-
-ActionController::RoutingError (No route matches "/redmine" with {:method=>:get}):
-  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
-
-Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
-
-
-Processing WelcomeController#index (for ::1 at 2012-03-01 01:16:14) [GET]
-  Parameters: {"controller"=>"welcome", "action"=>"index"}
-Rendering template within layouts/base
-Rendering welcome/index
-Completed in 195ms (View: 150, DB: 19) | 200 OK [http://localhost/redmine]
-
-
-Processing AccountController#login (for ::1 at 2012-03-01 01:16:18) [GET]
-  Parameters: {"controller"=>"account", "action"=>"login"}
-Rendering template within layouts/base
-Rendering account/login
-Completed in 18ms (View: 12, DB: 2) | 200 OK [http://localhost/redmine/login]
-
-
-Processing AccountController#login (for ::1 at 2012-03-01 01:16:23) [POST]
-  Parameters: {"username"=>"vinicius.oyama", "password"=>"[FILTERED]", "controller"=>"account", "back_url"=>"http%3A%2F%2Flocalhost%2Fredmine", "authenticity_token"=>"gdzRrkNqKEeGIiY3DXNVZY4EvyXbQbj63qFckIVe068=", "login"=>"Login »", "action"=>"login"}
-Rendering template within layouts/base
-Rendering account/login
-Completed in 78ms (View: 8, DB: 66) | 200 OK [http://localhost/redmine/login]
-
-
-Processing AccountController#login (for ::1 at 2012-03-01 01:16:26) [POST]
-  Parameters: {"username"=>"admin", "password"=>"[FILTERED]", "controller"=>"account", "back_url"=>"http%3A%2F%2Flocalhost%2Fredmine", "authenticity_token"=>"gdzRrkNqKEeGIiY3DXNVZY4EvyXbQbj63qFckIVe068=", "login"=>"Login »", "action"=>"login"}
-Redirected to http://localhost/redmine
-Completed in 51ms (DB: 42) | 302 Found [http://localhost/redmine/login]
-
-
-Processing WelcomeController#index (for ::1 at 2012-03-01 01:16:26) [GET]
-  Parameters: {"controller"=>"welcome", "action"=>"index"}
-Rendering template within layouts/base
-Rendering welcome/index
-Completed in 103ms (View: 20, DB: 79) | 200 OK [http://localhost/redmine]
-
-
-Processing TimesheetController#index (for ::1 at 2012-03-01 01:16:32) [GET]
+Processing TimesheetController#index (for 187.22.169.73 at 2012-03-03 05:51:50) [GET]
   Parameters: {"controller"=>"timesheet", "action"=>"index"}
 Rendering template within layouts/base
 Rendering timesheet/index
-Completed in 90ms (View: 39, DB: 46) | 200 OK [http://localhost/redmine/timesheet]
+Completed in 464ms (View: 327, DB: 49) | 200 OK [http://teste.viniciusoyama.com/timesheet]
 
 
-Processing TimesheetController#refresh_calendar (for ::1 at 2012-03-01 01:16:39) [POST]
-  Parameters: {"new_year"=>"2012", "controller"=>"timesheet", "_"=>"", "new_month"=>"2", "authenticity_token"=>"e/q0nQ052+MdQsPQSP9MhpM1LihuAj8ffe4XoasspW0=", "action"=>"refresh_calendar"}
-Completed in 100ms (View: 89, DB: 9) | 200 OK [http://localhost/redmine/timesheet/refresh_calendar]
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 05:51:50) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering admin/index
+Completed in 390ms (View: 295, DB: 27) | 200 OK [http://teste.viniciusoyama.com/admin]
 
 
-Processing TimesheetController#refresh_timesheets (for ::1 at 2012-03-01 01:16:41) [POST]
-  Parameters: {"datestr"=>"Wednesday, 08 February 2012", "controller"=>"timesheet", "date"=>"2012-02-08", "_"=>"", "authenticity_token"=>"e/q0nQ052+MdQsPQSP9MhpM1LihuAj8ffe4XoasspW0=", "action"=>"refresh_timesheets"}
-Completed in 120ms (View: 21, DB: 95) | 200 OK [http://localhost/redmine/timesheet/refresh_timesheets]
+Processing AdminController#plugins (for 187.22.169.73 at 2012-03-03 05:51:53) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"plugins"}
+Rendering template within layouts/admin
+Rendering admin/plugins
+Completed in 16ms (View: 13, DB: 0) | 200 OK [http://teste.viniciusoyama.com/admin/plugins]
 
 
-Processing TimesheetController#save_timesheet (for ::1 at 2012-03-01 01:16:50) [POST]
-  Parameters: {"tend"=>"", "new_timesheet_id"=>"22747", "controller"=>"timesheet", "date"=>"2012-02-08", "obs"=>"", "enumeration_id"=>"9", "_"=>"", "authenticity_token"=>"e/q0nQ052+MdQsPQSP9MhpM1LihuAj8ffe4XoasspW0=", "project_id"=>"0", "action"=>"save_timesheet", "tbegin"=>""}
-Completed in 11ms (View: 5, DB: 1) | 200 OK [http://localhost/redmine/timesheet/save_timesheet]
+Processing SettingsController#index (for 187.22.169.73 at 2012-03-03 05:51:56) [GET]
+  Parameters: {"controller"=>"settings", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering settings/edit
+Completed in 153ms (View: 139, DB: 10) | 200 OK [http://teste.viniciusoyama.com/settings]
 
 
-Processing WelcomeController#index (for ::1 at 2012-03-01 10:29:03) [GET]
-  Parameters: {"controller"=>"welcome", "action"=>"index"}
-Rendering template within layouts/base
-Rendering welcome/index
-Completed in 17ms (View: 10, DB: 3) | 200 OK [http://localhost/redmine]
+Processing AdminController#test_email (for 187.22.169.73 at 2012-03-03 05:51:59) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"test_email"}
+Redirected to http://teste.viniciusoyama.com/settings/edit?tab=notifications
+Completed in 15ms (DB: 1) | 302 Found [http://teste.viniciusoyama.com/admin/test_email]
 
 
-Processing WelcomeController#index (for ::1 at 2012-03-01 10:29:03) [GET]
-  Parameters: {"controller"=>"welcome", "action"=>"index"}
-Rendering template within layouts/base
-Rendering welcome/index
-Completed in 25ms (View: 11, DB: 7) | 200 OK [http://localhost/redmine]
+Processing SettingsController#edit (for 187.22.169.73 at 2012-03-03 05:52:00) [GET]
+  Parameters: {"controller"=>"settings", "tab"=>"notifications", "action"=>"edit"}
+Rendering template within layouts/admin
+Rendering settings/edit
+Completed in 160ms (View: 157, DB: 1) | 200 OK [http://teste.viniciusoyama.com/settings/edit?tab=notifications]
 
 
-Processing ProjectsController#index (for ::1 at 2012-03-01 10:29:07) [GET]
-  Parameters: {"controller"=>"projects", "action"=>"index"}
-Rendering template within layouts/base
-Rendering projects/index
-Completed in 79ms (View: 50, DB: 24) | 200 OK [http://localhost/redmine/projects]
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 06:03:44) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering admin/index
+Completed in 185ms (View: 143, DB: 3) | 200 OK [http://teste.viniciusoyama.com/admin]
 
 
-Processing ProjectsController#show (for ::1 at 2012-03-01 10:29:14) [GET]
-  Parameters: {"id"=>"pa", "controller"=>"projects", "action"=>"show"}
-Rendering template within layouts/base
-Rendering projects/show
-Completed in 502ms (View: 40, DB: 444) | 200 OK [http://localhost/redmine/projects/pa]
+Processing SettingsController#index (for 187.22.169.73 at 2012-03-03 06:03:47) [GET]
+  Parameters: {"controller"=>"settings", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering settings/edit
+Completed in 143ms (View: 130, DB: 9) | 200 OK [http://teste.viniciusoyama.com/settings]
 
 
-Processing IssuesController#new (for ::1 at 2012-03-01 10:29:20) [GET]
-  Parameters: {"controller"=>"issues", "project_id"=>"pa", "action"=>"new"}
-Rendering template within layouts/base
-Rendering issues/new
-Completed in 628ms (View: 224, DB: 185) | 200 OK [http://localhost/redmine/projects/pa/issues/new]
+Processing AdminController#test_email (for 187.22.169.73 at 2012-03-03 06:03:51) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"test_email"}
+Redirected to http://teste.viniciusoyama.com/settings/edit?tab=notifications
+Completed in 1708ms (DB: 1) | 302 Found [http://teste.viniciusoyama.com/admin/test_email]
 
 
-Processing IssuesController#new (for ::1 at 2012-03-01 10:29:24) [POST]
-  Parameters: {"issue"=>{"assigned_to_id"=>"", "description"=>"ets", "status_id"=>"1", "due_date"=>"", "priority_id"=>"4", "tracker_id"=>"1", "subject"=>"etsest", "start_date"=>"2012-03-01", "done_ratio"=>"0", "estimated_hours"=>""}, "controller"=>"issues", "attachments"=>{"1"=>{"description"=>""}}, "project_id"=>"pa", "authenticity_token"=>"e/q0nQ052+MdQsPQSP9MhpM1LihuAj8ffe4XoasspW0=", "action"=>"new", "continue"=>"Create and continue"}
-Redirected to http://localhost/redmine/projects/pa/issues/new?tracker_id=1
-Completed in 237ms (DB: 137) | 302 Found [http://localhost/redmine/projects/pa/issues/new]
+Processing SettingsController#edit (for 187.22.169.73 at 2012-03-03 06:03:52) [GET]
+  Parameters: {"tab"=>"notifications", "controller"=>"settings", "action"=>"edit"}
+Rendering template within layouts/admin
+Rendering settings/edit
+Completed in 149ms (View: 146, DB: 1) | 200 OK [http://teste.viniciusoyama.com/settings/edit?tab=notifications]
 
 
-Processing IssuesController#new (for ::1 at 2012-03-01 10:29:24) [GET]
-  Parameters: {"tracker_id"=>"1", "controller"=>"issues", "project_id"=>"pa", "action"=>"new"}
-Rendering template within layouts/base
-Rendering issues/new
-Completed in 103ms (View: 82, DB: 10) | 200 OK [http://localhost/redmine/projects/pa/issues/new?tracker_id=1]
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 06:05:45) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering admin/index
+Completed in 202ms (View: 157, DB: 6) | 200 OK [http://teste.viniciusoyama.com/admin]
 
 
-Processing WelcomeController#index (for 127.0.0.1 at 2012-03-01 10:38:09) [GET]
-  Parameters: {"controller"=>"welcome", "action"=>"index"}
-
-NoMethodError (undefined method `[]' for nil:NilClass):
-  app/models/setting.rb:100:in `value='
-  app/models/setting.rb:166:in `new'
-  app/models/setting.rb:166:in `find_or_default'
-  app/models/setting.rb:107:in `[]'
-  app/models/setting.rb:140:in `rest_api_enabled?'
-  app/controllers/application_controller.rb:73:in `find_current_user'
-  app/controllers/application_controller.rb:56:in `user_setup'
-  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
-
-Rendering rescues/layout (internal_server_error)
+Processing SettingsController#index (for 187.22.169.73 at 2012-03-03 06:06:03) [GET]
+  Parameters: {"controller"=>"settings", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering settings/edit
+Completed in 149ms (View: 135, DB: 9) | 200 OK [http://teste.viniciusoyama.com/settings]
 
 
-Processing WelcomeController#index (for ::1 at 2012-03-01 10:38:17) [GET]
-  Parameters: {"controller"=>"welcome", "action"=>"index"}
-Rendering template within layouts/base
-Rendering welcome/index
+Processing AdminController#test_email (for 187.22.169.73 at 2012-03-03 06:06:12) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"test_email"}
+Redirected to http://teste.viniciusoyama.com/settings/edit?tab=notifications
+Completed in 522ms (DB: 1) | 302 Found [http://teste.viniciusoyama.com/admin/test_email]
 
-ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #22 of app/views/welcome/index.rhtml:
-19: 		<ul>
-20: 		<% for project in @projects %>
-21: 			<li>
-22: 			<%= link_to h(project.name), :controller => 'projects', :action => 'show', :id => project %> (<%= format_time(project.created_on) %>)
-23: 			<%= textilizable project.short_description, :project => project %>
-24: 			</li>
-25: 		<% end %>
+
+Processing SettingsController#edit (for 187.22.169.73 at 2012-03-03 06:06:12) [GET]
+  Parameters: {"tab"=>"notifications", "controller"=>"settings", "action"=>"edit"}
+Rendering template within layouts/admin
+Rendering settings/edit
+Completed in 83ms (View: 80, DB: 1) | 200 OK [http://teste.viniciusoyama.com/settings/edit?tab=notifications]
+
+
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 06:07:29) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering admin/index
+
+ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #5 of app/views/layouts/base.rhtml:
+2: <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+3: <head>
+4: <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+5: <title><%=h html_title %></title>
+6: <meta name="description" content="<%= Redmine::Info.app_name %>" />
+7: <meta name="keywords" content="issue,bug,tracker" />
+8: <%= stylesheet_link_tag 'application', :media => 'all' %>
 
     app/models/setting.rb:100:in `value='
     app/models/setting.rb:166:in `new'
     app/models/setting.rb:166:in `find_or_default'
     app/models/setting.rb:107:in `[]'
-    app/models/setting.rb:136:in `time_format'
-    lib/redmine/i18n.rb:48:in `format_time'
-    app/views/welcome/index.rhtml:22:in `_run_rhtml_app47views47welcome47index46rhtml'
-    app/views/welcome/index.rhtml:20:in `each'
-    app/views/welcome/index.rhtml:20:in `_run_rhtml_app47views47welcome47index46rhtml'
+    app/models/setting.rb:136:in `app_title'
+    app/helpers/application_helper.rb:375:in `html_title'
+    app/views/layouts/base.rhtml:5:in `_run_rhtml_app47views47layouts47base46rhtml'
+    app/views/layouts/admin.rhtml:8:in `_run_rhtml_app47views47layouts47admin46rhtml'
     passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
     passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
     passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
@@ -498,32 +177,31 @@ ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #22 o
     passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
     passenger (3.0.11) helper-scripts/passenger-spawn-server:99
 
-Rendering /Users/viny/Downloads/redmine92/ok/public/500.html (500 Internal Server Error)
+Rendering /sites/redmine/redmine-timesheet/public/500.html (500 Internal Server Error)
 
 
-Processing WelcomeController#index (for ::1 at 2012-03-01 10:38:24) [GET]
-  Parameters: {"controller"=>"welcome", "action"=>"index"}
-Rendering template within layouts/base
-Rendering welcome/index
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 06:07:31) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering admin/index
 
-ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #22 of app/views/welcome/index.rhtml:
-19: 		<ul>
-20: 		<% for project in @projects %>
-21: 			<li>
-22: 			<%= link_to h(project.name), :controller => 'projects', :action => 'show', :id => project %> (<%= format_time(project.created_on) %>)
-23: 			<%= textilizable project.short_description, :project => project %>
-24: 			</li>
-25: 		<% end %>
+ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #5 of app/views/layouts/base.rhtml:
+2: <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+3: <head>
+4: <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+5: <title><%=h html_title %></title>
+6: <meta name="description" content="<%= Redmine::Info.app_name %>" />
+7: <meta name="keywords" content="issue,bug,tracker" />
+8: <%= stylesheet_link_tag 'application', :media => 'all' %>
 
     app/models/setting.rb:100:in `value='
     app/models/setting.rb:166:in `new'
     app/models/setting.rb:166:in `find_or_default'
     app/models/setting.rb:107:in `[]'
-    app/models/setting.rb:136:in `time_format'
-    lib/redmine/i18n.rb:48:in `format_time'
-    app/views/welcome/index.rhtml:22:in `_run_rhtml_app47views47welcome47index46rhtml'
-    app/views/welcome/index.rhtml:20:in `each'
-    app/views/welcome/index.rhtml:20:in `_run_rhtml_app47views47welcome47index46rhtml'
+    app/models/setting.rb:136:in `app_title'
+    app/helpers/application_helper.rb:375:in `html_title'
+    app/views/layouts/base.rhtml:5:in `_run_rhtml_app47views47layouts47base46rhtml'
+    app/views/layouts/admin.rhtml:8:in `_run_rhtml_app47views47layouts47admin46rhtml'
     passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
     passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
     passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
@@ -550,32 +228,31 @@ ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #22 o
     passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
     passenger (3.0.11) helper-scripts/passenger-spawn-server:99
 
-Rendering /Users/viny/Downloads/redmine92/ok/public/500.html (500 Internal Server Error)
+Rendering /sites/redmine/redmine-timesheet/public/500.html (500 Internal Server Error)
 
 
-Processing WelcomeController#index (for ::1 at 2012-03-01 10:38:27) [GET]
-  Parameters: {"controller"=>"welcome", "action"=>"index"}
-Rendering template within layouts/base
-Rendering welcome/index
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 06:07:41) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering admin/index
 
-ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #22 of app/views/welcome/index.rhtml:
-19: 		<ul>
-20: 		<% for project in @projects %>
-21: 			<li>
-22: 			<%= link_to h(project.name), :controller => 'projects', :action => 'show', :id => project %> (<%= format_time(project.created_on) %>)
-23: 			<%= textilizable project.short_description, :project => project %>
-24: 			</li>
-25: 		<% end %>
+ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #5 of app/views/layouts/base.rhtml:
+2: <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+3: <head>
+4: <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+5: <title><%=h html_title %></title>
+6: <meta name="description" content="<%= Redmine::Info.app_name %>" />
+7: <meta name="keywords" content="issue,bug,tracker" />
+8: <%= stylesheet_link_tag 'application', :media => 'all' %>
 
     app/models/setting.rb:100:in `value='
     app/models/setting.rb:166:in `new'
     app/models/setting.rb:166:in `find_or_default'
     app/models/setting.rb:107:in `[]'
-    app/models/setting.rb:136:in `time_format'
-    lib/redmine/i18n.rb:48:in `format_time'
-    app/views/welcome/index.rhtml:22:in `_run_rhtml_app47views47welcome47index46rhtml'
-    app/views/welcome/index.rhtml:20:in `each'
-    app/views/welcome/index.rhtml:20:in `_run_rhtml_app47views47welcome47index46rhtml'
+    app/models/setting.rb:136:in `app_title'
+    app/helpers/application_helper.rb:375:in `html_title'
+    app/views/layouts/base.rhtml:5:in `_run_rhtml_app47views47layouts47base46rhtml'
+    app/views/layouts/admin.rhtml:8:in `_run_rhtml_app47views47layouts47admin46rhtml'
     passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
     passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
     passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
@@ -602,166 +279,642 @@ ActionView::TemplateError (undefined method `[]' for nil:NilClass) on line #22 o
     passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
     passenger (3.0.11) helper-scripts/passenger-spawn-server:99
 
-Rendering /Users/viny/Downloads/redmine92/ok/public/500.html (500 Internal Server Error)
+Rendering /sites/redmine/redmine-timesheet/public/500.html (500 Internal Server Error)
 
 
-Processing WelcomeController#index (for 127.0.0.1 at 2012-03-01 10:39:15) [GET]
-  Parameters: {"controller"=>"welcome", "action"=>"index"}
-Rendering template within layouts/base
-Rendering welcome/index
-Completed in 260ms (View: 211, DB: 18) | 200 OK [http://redmine.localhost/]
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 06:07:54) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/admin
+Rendering admin/index
+Completed in 182ms (View: 140, DB: 3) | 200 OK [http://teste.viniciusoyama.com/admin]
 
 
-Processing ProjectsController#index (for 127.0.0.1 at 2012-03-01 10:39:25) [GET]
-  Parameters: {"controller"=>"projects", "action"=>"index"}
-Rendering template within layouts/base
-Rendering projects/index
-Completed in 19ms (View: 11, DB: 2) | 200 OK [http://redmine.localhost/projects]
+Processing SettingsController#index (for 187.22.169.73 at 2012-03-03 06:07:57) [GET]
+  Parameters: {"action"=>"index", "controller"=>"settings"}
+Rendering template within layouts/admin
+Rendering settings/edit
+Completed in 143ms (View: 129, DB: 9) | 200 OK [http://teste.viniciusoyama.com/settings]
 
 
-Processing ProjectsController#show (for 127.0.0.1 at 2012-03-01 10:39:27) [GET]
-  Parameters: {"controller"=>"projects", "id"=>"pa", "action"=>"show"}
-Rendering template within layouts/base
-Rendering projects/show
-Completed in 72ms (View: 31, DB: 24) | 200 OK [http://redmine.localhost/projects/pa]
+Processing AdminController#test_email (for 187.22.169.73 at 2012-03-03 06:08:02) [GET]
+  Parameters: {"action"=>"test_email", "controller"=>"admin"}
+Redirected to http://teste.viniciusoyama.com/settings/edit?tab=notifications
+Completed in 4100ms (DB: 1) | 302 Found [http://teste.viniciusoyama.com/admin/test_email]
 
 
-Processing ApplicationController#index (for ::1 at 2012-03-01 10:39:48) [GET]
-
-ActionController::RoutingError (No route matches "/as/app/webroot/" with {:method=>:get}):
-  passenger (3.0.11) lib/phusion_passenger/rack/request_handler.rb:96:in `process_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:513:in `accept_and_process_next_request'
-  passenger (3.0.11) lib/phusion_passenger/abstract_request_handler.rb:274:in `main_loop'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:321:in `start_request_handler'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `send'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/utils.rb:479:in `safe_fork'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:270:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:180:in `start'
-  passenger (3.0.11) lib/phusion_passenger/classic_rails/application_spawner.rb:149:in `start'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:219:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:132:in `lookup_or_add'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:214:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:82:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:213:in `spawn_rails_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:132:in `spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/spawn_manager.rb:275:in `handle_spawn_application'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `__send__'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:357:in `server_main_loop'
-  passenger (3.0.11) lib/phusion_passenger/abstract_server.rb:206:in `start_synchronously'
-  passenger (3.0.11) helper-scripts/passenger-spawn-server:99
-
-Rendering /Users/viny/Downloads/redmine92/ok/public/404.html (404 Not Found)
+Processing SettingsController#edit (for 187.22.169.73 at 2012-03-03 06:08:06) [GET]
+  Parameters: {"action"=>"edit", "tab"=>"notifications", "controller"=>"settings"}
+Rendering template within layouts/admin
+Rendering settings/edit
+Completed in 155ms (View: 152, DB: 1) | 200 OK [http://teste.viniciusoyama.com/settings/edit?tab=notifications]
 
 
-Processing WelcomeController#index (for 127.0.0.1 at 2012-03-01 10:41:13) [GET]
-  Parameters: {"controller"=>"welcome", "action"=>"index"}
-Rendering template within layouts/base
-Rendering welcome/index
-Completed in 211ms (View: 164, DB: 16) | 200 OK [http://redmine.localhost/]
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 06:10:02) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/admin
+Rendering admin/index
+Completed in 16ms (View: 12, DB: 1) | 200 OK [http://teste.viniciusoyama.com/admin]
 
 
-Processing WelcomeController#index (for 127.0.0.1 at 2012-03-01 11:27:02) [GET]
-  Parameters: {"action"=>"index", "controller"=>"welcome"}
-Rendering template within layouts/base
-Rendering welcome/index
-Completed in 316ms (View: 161, DB: 90) | 200 OK [http://redmine.localhost/]
+Processing UsersController#index (for 187.22.169.73 at 2012-03-03 06:10:03) [GET]
+  Parameters: {"action"=>"index", "controller"=>"users"}
+Rendering template within layouts/admin
+Rendering users/index
+Completed in 47ms (View: 39, DB: 1) | 200 OK [http://teste.viniciusoyama.com/users]
 
 
-Processing ProjectsController#index (for 127.0.0.1 at 2012-03-01 11:27:08) [GET]
+Processing UsersController#add (for 187.22.169.73 at 2012-03-03 06:10:08) [GET]
+  Parameters: {"action"=>"add", "controller"=>"users"}
+Rendering template within layouts/admin
+Rendering users/add
+Completed in 28ms (View: 25, DB: 1) | 200 OK [http://teste.viniciusoyama.com/users/new]
+
+
+Processing UsersController#add (for 187.22.169.73 at 2012-03-03 06:10:29) [POST]
+  Parameters: {"authenticity_token"=>"Y3sLjvGDywXk8kinDvmYN054kjYicxKK/YGaA9lePPM=", "user"=>{"language"=>"en", "login"=>"bruno.bueno", "admin"=>"1", "firstname"=>"Bruno", "lastname"=>"Pereira Bueno", "mail"=>"bruno.bueno@codus.com.br"}, "password_confirmation"=>"[FILTERED]", "commit"=>"Create", "action"=>"add", "send_information"=>"1", "password"=>"[FILTERED]", "controller"=>"users"}
+Redirected to http://teste.viniciusoyama.com/users/4/edit
+Completed in 2873ms (DB: 6) | 302 Found [http://teste.viniciusoyama.com/users/new]
+
+
+Processing UsersController#edit (for 187.22.169.73 at 2012-03-03 06:10:32) [GET]
+  Parameters: {"id"=>"4", "action"=>"edit", "controller"=>"users"}
+Rendering template within layouts/admin
+Rendering users/edit
+Completed in 51ms (View: 43, DB: 5) | 200 OK [http://teste.viniciusoyama.com/users/4/edit]
+
+
+Processing ProjectsController#index (for 187.22.169.73 at 2012-03-03 06:10:39) [GET]
   Parameters: {"action"=>"index", "controller"=>"projects"}
 Rendering template within layouts/base
 Rendering projects/index
-Completed in 22ms (View: 12, DB: 2) | 200 OK [http://redmine.localhost/projects]
+Completed in 26ms (View: 19, DB: 2) | 200 OK [http://teste.viniciusoyama.com/projects]
 
 
-Processing WelcomeController#index (for 127.0.0.1 at 2012-03-01 11:27:13) [GET]
-  Parameters: {"action"=>"index", "controller"=>"welcome"}
+Processing ProjectsController#show (for 187.22.169.73 at 2012-03-03 06:10:42) [GET]
+  Parameters: {"id"=>"escala", "action"=>"show", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 67ms (View: 41, DB: 10) | 200 OK [http://teste.viniciusoyama.com/projects/escala]
+
+
+Processing ProjectsController#settings (for 187.22.169.73 at 2012-03-03 06:10:45) [GET]
+  Parameters: {"id"=>"escala", "action"=>"settings", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 116ms (View: 102, DB: 7) | 200 OK [http://teste.viniciusoyama.com/projects/escala/settings]
+
+
+Processing ProjectsController#edit (for 187.22.169.73 at 2012-03-03 06:11:01) [POST]
+  Parameters: {"project"=>{"homepage"=>"", "description"=>"Projetos feitos para escala", "tracker_ids"=>["1", "2", "3", ""], "name"=>"Escala", "parent_id"=>"", "is_public"=>"1"}, "authenticity_token"=>"Y3sLjvGDywXk8kinDvmYN054kjYicxKK/YGaA9lePPM=", "id"=>"escala", "commit"=>"Save", "action"=>"edit", "controller"=>"projects"}
+Redirected to http://teste.viniciusoyama.com/projects/escala/settings
+Completed in 115ms (DB: 10) | 302 Found [http://teste.viniciusoyama.com/projects/edit/escala]
+
+
+Processing ProjectsController#settings (for 187.22.169.73 at 2012-03-03 06:11:01) [GET]
+  Parameters: {"id"=>"escala", "action"=>"settings", "controller"=>"projects"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 87ms (View: 76, DB: 4) | 200 OK [http://teste.viniciusoyama.com/projects/escala/settings]
+
+
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 06:12:16) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/admin
+Rendering admin/index
+Completed in 181ms (View: 140, DB: 3) | 200 OK [http://teste.viniciusoyama.com/admin]
+
+
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 06:12:23) [GET]
+  Parameters: {"action"=>"index", "controller"=>"admin"}
+Rendering template within layouts/admin
+Rendering admin/index
+Completed in 15ms (View: 12, DB: 0) | 200 OK [http://teste.viniciusoyama.com/admin]
+
+
+Processing SettingsController#index (for 187.22.169.73 at 2012-03-03 06:12:29) [GET]
+  Parameters: {"action"=>"index", "controller"=>"settings"}
+Rendering template within layouts/admin
+Rendering settings/edit
+Completed in 131ms (View: 118, DB: 8) | 200 OK [http://teste.viniciusoyama.com/settings]
+
+
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 06:13:27) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering admin/index
+Completed in 180ms (View: 140, DB: 3) | 200 OK [http://teste.viniciusoyama.com/admin]
+
+
+Processing SettingsController#index (for 187.22.169.73 at 2012-03-03 06:13:29) [GET]
+  Parameters: {"controller"=>"settings", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering settings/edit
+Completed in 152ms (View: 138, DB: 9) | 200 OK [http://teste.viniciusoyama.com/settings]
+
+
+Processing CustomFieldsController#index (for 187.22.169.73 at 2012-03-03 06:13:37) [GET]
+  Parameters: {"controller"=>"custom_fields", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering custom_fields/index
+Completed in 32ms (View: 27, DB: 1) | 200 OK [http://teste.viniciusoyama.com/custom_fields]
+
+
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 06:18:34) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering admin/index
+Completed in 13ms (View: 10, DB: 0) | 200 OK [http://teste.viniciusoyama.com/admin]
+
+
+Processing UsersController#index (for 187.22.169.73 at 2012-03-03 06:18:42) [GET]
+  Parameters: {"controller"=>"users", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering users/index
+Completed in 52ms (View: 44, DB: 2) | 200 OK [http://teste.viniciusoyama.com/users]
+
+
+Processing UsersController#add (for 187.22.169.73 at 2012-03-03 06:18:46) [GET]
+  Parameters: {"controller"=>"users", "action"=>"add"}
+Rendering template within layouts/admin
+Rendering users/add
+Completed in 96ms (View: 93, DB: 1) | 200 OK [http://teste.viniciusoyama.com/users/new]
+
+
+Processing UsersController#edit (for 187.22.169.73 at 2012-03-03 06:18:53) [GET]
+  Parameters: {"controller"=>"users", "id"=>"3", "action"=>"edit"}
+Rendering template within layouts/admin
+Rendering users/edit
+Completed in 53ms (View: 45, DB: 5) | 200 OK [http://teste.viniciusoyama.com/users/3/edit]
+
+
+Processing UsersController#edit (for 187.22.169.73 at 2012-03-03 06:19:05) [POST]
+  Parameters: {"user"=>{"lastname"=>"teste", "login"=>"teste", "admin"=>"0", "language"=>"en", "mail"=>"vinicius.oyama@gmail.com", "firstname"=>"teste"}, "controller"=>"users", "id"=>"3", "commit"=>"Save", "password"=>"[FILTERED]", "send_information"=>"1", "action"=>"edit", "authenticity_token"=>"Y3sLjvGDywXk8kinDvmYN054kjYicxKK/YGaA9lePPM=", "password_confirmation"=>"[FILTERED]"}
+Redirected to http://teste.viniciusoyama.com/users/3/edit
+Completed in 71ms (DB: 2) | 302 Found [http://teste.viniciusoyama.com/users/3/edit]
+
+
+Processing UsersController#edit (for 187.22.169.73 at 2012-03-03 06:19:05) [GET]
+  Parameters: {"controller"=>"users", "id"=>"3", "action"=>"edit"}
+Rendering template within layouts/admin
+Rendering users/edit
+Completed in 33ms (View: 29, DB: 1) | 200 OK [http://teste.viniciusoyama.com/users/3/edit]
+
+
+Processing RolesController#index (for 187.22.169.73 at 2012-03-03 06:19:29) [GET]
+  Parameters: {"controller"=>"roles", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering roles/list
+Completed in 51ms (View: 45, DB: 1) | 200 OK [http://teste.viniciusoyama.com/roles]
+
+
+Processing RolesController#edit (for 187.22.169.73 at 2012-03-03 06:19:32) [GET]
+  Parameters: {"controller"=>"roles", "id"=>"3", "action"=>"edit"}
+Rendering template within layouts/admin
+Rendering roles/edit
+Completed in 41ms (View: 38, DB: 1) | 200 OK [http://teste.viniciusoyama.com/roles/edit/3]
+
+
+Processing RolesController#edit (for 187.22.169.73 at 2012-03-03 06:19:36) [GET]
+  Parameters: {"controller"=>"roles", "id"=>"4", "action"=>"edit"}
+Rendering template within layouts/admin
+Rendering roles/edit
+Completed in 36ms (View: 33, DB: 1) | 200 OK [http://teste.viniciusoyama.com/roles/edit/4]
+
+
+Processing RolesController#edit (for 187.22.169.73 at 2012-03-03 06:19:50) [GET]
+  Parameters: {"controller"=>"roles", "id"=>"3", "action"=>"edit"}
+Rendering template within layouts/admin
+Rendering roles/edit
+Completed in 36ms (View: 34, DB: 0) | 200 OK [http://teste.viniciusoyama.com/roles/edit/3]
+
+
+Processing RolesController#edit (for 187.22.169.73 at 2012-03-03 06:20:05) [GET]
+  Parameters: {"controller"=>"roles", "id"=>"4", "action"=>"edit"}
+Rendering template within layouts/admin
+Rendering roles/edit
+Completed in 39ms (View: 36, DB: 1) | 200 OK [http://teste.viniciusoyama.com/roles/edit/4]
+
+
+Processing UsersController#index (for 187.22.169.73 at 2012-03-03 06:20:37) [GET]
+  Parameters: {"controller"=>"users", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering users/index
+Completed in 40ms (View: 36, DB: 1) | 200 OK [http://teste.viniciusoyama.com/users]
+
+
+Processing UsersController#add (for 187.22.169.73 at 2012-03-03 06:20:38) [GET]
+  Parameters: {"controller"=>"users", "action"=>"add"}
+Rendering template within layouts/admin
+Rendering users/add
+Completed in 23ms (View: 20, DB: 1) | 200 OK [http://teste.viniciusoyama.com/users/new]
+
+
+Processing UsersController#add (for 187.22.169.73 at 2012-03-03 06:20:58) [POST]
+  Parameters: {"user"=>{"lastname"=>"teste2", "login"=>"teste2", "admin"=>"0", "language"=>"en", "mail"=>"vinicius.oyama@gmail.com", "firstname"=>"teste2"}, "controller"=>"users", "commit"=>"Create", "password"=>"[FILTERED]", "send_information"=>"1", "action"=>"add", "authenticity_token"=>"Y3sLjvGDywXk8kinDvmYN054kjYicxKK/YGaA9lePPM=", "password_confirmation"=>"[FILTERED]"}
+Rendering template within layouts/admin
+Rendering users/add
+Completed in 36ms (View: 28, DB: 2) | 200 OK [http://teste.viniciusoyama.com/users/new]
+
+
+Processing WelcomeController#index (for 187.22.169.73 at 2012-03-03 06:21:12) [GET]
+  Parameters: {"controller"=>"welcome", "action"=>"index"}
 Rendering template within layouts/base
 Rendering welcome/index
-Completed in 49ms (View: 8, DB: 2) | 200 OK [http://as.localhost/]
+Completed in 29ms (View: 14, DB: 4) | 200 OK [http://teste.viniciusoyama.com/]
 
 
-Processing WelcomeController#index (for 127.0.0.1 at 2012-03-01 12:09:49) [GET]
-  Parameters: {"action"=>"index", "controller"=>"welcome"}
-Rendering template within layouts/base
-Rendering welcome/index
-Completed in 187ms (View: 67, DB: 53) | 200 OK [http://redmine.localhost/]
-
-
-Processing WelcomeController#index (for 127.0.0.1 at 2012-03-01 12:09:51) [GET]
-  Parameters: {"action"=>"index", "controller"=>"welcome"}
-Rendering template within layouts/base
-Rendering welcome/index
-Completed in 16ms (View: 8, DB: 2) | 200 OK [http://redmine.localhost/]
-
-
-Processing ProjectsController#index (for 127.0.0.1 at 2012-03-01 12:09:54) [GET]
-  Parameters: {"action"=>"index", "controller"=>"projects"}
-Rendering template within layouts/base
-Rendering projects/index
-Completed in 148ms (View: 23, DB: 2) | 200 OK [http://redmine.localhost/projects]
-
-
-Processing AccountController#login (for 127.0.0.1 at 2012-03-01 12:09:55) [GET]
-  Parameters: {"action"=>"login", "controller"=>"account"}
+Processing AccountController#login (for 187.22.169.73 at 2012-03-03 06:22:05) [GET]
+  Parameters: {"controller"=>"account", "action"=>"login"}
 Rendering template within layouts/base
 Rendering account/login
-Completed in 17ms (View: 12, DB: 1) | 200 OK [http://redmine.localhost/login]
+Completed in 15ms (View: 11, DB: 0) | 200 OK [http://teste.viniciusoyama.com/login]
 
 
-Processing AccountController#login (for 127.0.0.1 at 2012-03-01 12:09:59) [POST]
-  Parameters: {"password"=>"[FILTERED]", "login"=>"Login »", "username"=>"admin", "action"=>"login", "back_url"=>"http%3A%2F%2Fredmine.localhost%2Fprojects", "controller"=>"account", "authenticity_token"=>"RX2B1aqR81XlKWn80vzEmoiUd50pcFXk/wUg8PUL154="}
-Redirected to http://redmine.localhost/projects
-Completed in 9ms (DB: 2) | 302 Found [http://redmine.localhost/login]
+Processing AccountController#login (for 187.22.169.73 at 2012-03-03 06:22:10) [POST]
+  Parameters: {"controller"=>"account", "back_url"=>"http%3A%2F%2Fteste.viniciusoyama.com%2F", "login"=>"Login »", "username"=>"teste", "password"=>"[FILTERED]", "action"=>"login", "authenticity_token"=>"uEwvDnIAvegDioJw0EZr/DLH/my2a/d+5nzRqZ2IqiI="}
+Redirected to http://teste.viniciusoyama.com/
+Completed in 13ms (DB: 8) | 302 Found [http://teste.viniciusoyama.com/login]
 
 
-Processing ProjectsController#index (for 127.0.0.1 at 2012-03-01 12:09:59) [GET]
-  Parameters: {"action"=>"index", "controller"=>"projects"}
+Processing WelcomeController#index (for 187.22.169.73 at 2012-03-03 06:22:10) [GET]
+  Parameters: {"controller"=>"welcome", "action"=>"index"}
 Rendering template within layouts/base
-Rendering projects/index
-Completed in 21ms (View: 14, DB: 4) | 200 OK [http://redmine.localhost/projects]
+Rendering welcome/index
+Completed in 136ms (View: 24, DB: 31) | 200 OK [http://teste.viniciusoyama.com/]
 
 
-Processing ProjectsController#show (for 127.0.0.1 at 2012-03-01 12:10:01) [GET]
-  Parameters: {"id"=>"pa", "action"=>"show", "controller"=>"projects"}
+Processing ProjectsController#show (for 187.22.169.73 at 2012-03-03 06:22:16) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"escala", "action"=>"show"}
 Rendering template within layouts/base
 Rendering projects/show
-Completed in 79ms (View: 42, DB: 22) | 200 OK [http://redmine.localhost/projects/pa]
+Completed in 73ms (View: 41, DB: 10) | 200 OK [http://teste.viniciusoyama.com/projects/escala]
 
 
-Processing IssuesController#new (for 127.0.0.1 at 2012-03-01 12:10:03) [GET]
-  Parameters: {"action"=>"new", "project_id"=>"pa", "controller"=>"issues"}
+Processing IssuesController#index (for 187.22.169.73 at 2012-03-03 06:22:17) [GET]
+  Parameters: {"controller"=>"issues", "project_id"=>"escala", "action"=>"index"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 102ms (View: 64, DB: 7) | 200 OK [http://teste.viniciusoyama.com/projects/escala/issues]
+
+
+Processing IssuesController#new (for 187.22.169.73 at 2012-03-03 06:22:18) [GET]
+  Parameters: {"controller"=>"issues", "project_id"=>"escala", "action"=>"new"}
 Rendering template within layouts/base
 Rendering issues/new
-Completed in 218ms (View: 182, DB: 18) | 200 OK [http://redmine.localhost/projects/pa/issues/new]
+Completed in 67ms (View: 46, DB: 5) | 200 OK [http://teste.viniciusoyama.com/projects/escala/issues/new]
 
 
-Processing IssuesController#new (for 127.0.0.1 at 2012-03-01 12:10:06) [POST]
-  Parameters: {"issue"=>{"assigned_to_id"=>"", "due_date"=>"", "start_date"=>"2012-03-01", "priority_id"=>"4", "estimated_hours"=>"", "status_id"=>"1", "description"=>"sdfa", "subject"=>"sdaf", "done_ratio"=>"0", "tracker_id"=>"1"}, "continue"=>"Create and continue", "attachments"=>{"1"=>{"description"=>""}}, "action"=>"new", "project_id"=>"pa", "controller"=>"issues", "authenticity_token"=>"x00C/4FNCMd0GUj+QHPVOu94Wh5w6W00XJhTCRifJh4="}
-Redirected to http://redmine.localhost/projects/pa/issues/new?tracker_id=1
-Completed in 91ms (DB: 14) | 302 Found [http://redmine.localhost/projects/pa/issues/new]
+Processing UsersController#edit (for 187.22.169.73 at 2012-03-03 06:22:26) [GET]
+  Parameters: {"controller"=>"users", "id"=>"3", "action"=>"edit"}
+Rendering template within layouts/admin
+Rendering users/edit
+Completed in 34ms (View: 29, DB: 2) | 200 OK [http://teste.viniciusoyama.com/users/3/edit]
 
 
-Processing IssuesController#new (for 127.0.0.1 at 2012-03-01 12:10:06) [GET]
-  Parameters: {"action"=>"new", "project_id"=>"pa", "controller"=>"issues", "tracker_id"=>"1"}
+Processing IssuesController#new (for 187.22.169.73 at 2012-03-03 06:22:43) [POST]
+  Parameters: {"controller"=>"issues", "project_id"=>"escala", "issue"=>{"tracker_id"=>"1", "priority_id"=>"4", "due_date"=>"", "subject"=>"te", "done_ratio"=>"0", "estimated_hours"=>"", "start_date"=>"2012-03-03", "assigned_to_id"=>"", "description"=>"tes", "status_id"=>"1"}, "commit"=>"Create", "attachments"=>{"1"=>{"description"=>""}}, "action"=>"new", "authenticity_token"=>"eJi7shJh2ecEzAdw/SWt2OB8+sj15cn0ACQbg7z/DkI="}
+Redirected to http://teste.viniciusoyama.com/issues/4
+Completed in 3185ms (DB: 21) | 302 Found [http://teste.viniciusoyama.com/projects/escala/issues/new]
+
+
+Processing IssuesController#new (for 187.22.169.73 at 2012-03-03 06:22:45) [POST]
+  Parameters: {"controller"=>"issues", "project_id"=>"escala", "issue"=>{"tracker_id"=>"1", "priority_id"=>"4", "due_date"=>"", "subject"=>"te", "done_ratio"=>"0", "estimated_hours"=>"", "start_date"=>"2012-03-03", "assigned_to_id"=>"", "description"=>"tes", "status_id"=>"1"}, "commit"=>"Create", "attachments"=>{"1"=>{"description"=>""}}, "action"=>"new", "authenticity_token"=>"eJi7shJh2ecEzAdw/SWt2OB8+sj15cn0ACQbg7z/DkI="}
+Redirected to http://teste.viniciusoyama.com/issues/5
+Completed in 3008ms (DB: 26) | 302 Found [http://teste.viniciusoyama.com/projects/escala/issues/new]
+
+
+Processing IssuesController#show (for 187.22.169.73 at 2012-03-03 06:22:48) [GET]
+  Parameters: {"controller"=>"issues", "id"=>"5", "action"=>"show"}
 Rendering template within layouts/base
-Rendering issues/new
-Completed in 43ms (View: 27, DB: 8) | 200 OK [http://redmine.localhost/projects/pa/issues/new?tracker_id=1]
+Rendering issues/show.rhtml
+Completed in 111ms (View: 84, DB: 9) | 200 OK [http://teste.viniciusoyama.com/issues/5]
 
 
-Processing IssuesController#new (for 127.0.0.1 at 2012-03-01 12:16:28) [POST]
-  Parameters: {"issue"=>{"assigned_to_id"=>"", "due_date"=>"", "start_date"=>"2012-03-01", "priority_id"=>"4", "estimated_hours"=>"", "status_id"=>"1", "description"=>"fdas", "subject"=>"dsaf", "done_ratio"=>"0", "tracker_id"=>"1"}, "continue"=>"Create and continue", "attachments"=>{"1"=>{"description"=>""}}, "action"=>"new", "project_id"=>"pa", "controller"=>"issues", "authenticity_token"=>"x00C/4FNCMd0GUj+QHPVOu94Wh5w6W00XJhTCRifJh4="}
-Redirected to http://redmine.localhost/projects/pa/issues/new?tracker_id=1
-Completed in 165ms (DB: 81) | 302 Found [http://redmine.localhost/projects/pa/issues/new]
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 06:22:58) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering admin/index
+Completed in 29ms (View: 22, DB: 1) | 200 OK [http://teste.viniciusoyama.com/admin]
 
 
-Processing IssuesController#new (for 127.0.0.1 at 2012-03-01 12:16:28) [GET]
-  Parameters: {"action"=>"new", "project_id"=>"pa", "controller"=>"issues", "tracker_id"=>"1"}
+Processing GroupsController#index (for 187.22.169.73 at 2012-03-03 06:23:03) [GET]
+  Parameters: {"controller"=>"groups", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering groups/index
+Completed in 20ms (View: 12, DB: 2) | 200 OK [http://teste.viniciusoyama.com/groups]
+
+
+Processing GroupsController#new (for 187.22.169.73 at 2012-03-03 06:23:05) [GET]
+  Parameters: {"controller"=>"groups", "action"=>"new"}
+Rendering template within layouts/admin
+Rendering groups/new
+Completed in 19ms (View: 16, DB: 1) | 200 OK [http://teste.viniciusoyama.com/groups/new]
+
+
+Processing AdminController#projects (for 187.22.169.73 at 2012-03-03 06:23:08) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"projects"}
+Rendering template within layouts/admin
+Rendering admin/projects
+Completed in 30ms (View: 26, DB: 1) | 200 OK [http://teste.viniciusoyama.com/admin/projects]
+
+
+Processing ProjectsController#settings (for 187.22.169.73 at 2012-03-03 06:23:10) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"codus", "action"=>"settings"}
 Rendering template within layouts/base
-Rendering issues/new
-Completed in 49ms (View: 33, DB: 8) | 200 OK [http://redmine.localhost/projects/pa/issues/new?tracker_id=1]
+Rendering projects/settings
+Completed in 192ms (View: 174, DB: 8) | 200 OK [http://teste.viniciusoyama.com/projects/codus/settings]
+
+
+Processing RolesController#index (for 187.22.169.73 at 2012-03-03 06:23:24) [GET]
+  Parameters: {"controller"=>"roles", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering roles/list
+Completed in 49ms (View: 44, DB: 1) | 200 OK [http://teste.viniciusoyama.com/roles]
+
+
+Processing RolesController#edit (for 187.22.169.73 at 2012-03-03 06:23:26) [GET]
+  Parameters: {"controller"=>"roles", "id"=>"1", "action"=>"edit"}
+Rendering template within layouts/admin
+Rendering roles/edit
+Completed in 32ms (View: 29, DB: 1) | 200 OK [http://teste.viniciusoyama.com/roles/edit/1]
+
+
+Processing RolesController#edit (for 187.22.169.73 at 2012-03-03 06:23:35) [POST]
+  Parameters: {"controller"=>"roles", "role"=>{"permissions"=>[""]}, "id"=>"1", "commit"=>"Save", "action"=>"edit", "authenticity_token"=>"Y3sLjvGDywXk8kinDvmYN054kjYicxKK/YGaA9lePPM="}
+Redirected to http://teste.viniciusoyama.com/roles
+Completed in 12ms (DB: 6) | 302 Found [http://teste.viniciusoyama.com/roles/edit/1]
+
+
+Processing RolesController#index (for 187.22.169.73 at 2012-03-03 06:23:35) [GET]
+  Parameters: {"controller"=>"roles", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering roles/list
+Completed in 41ms (View: 38, DB: 1) | 200 OK [http://teste.viniciusoyama.com/roles]
+
+
+Processing RolesController#edit (for 187.22.169.73 at 2012-03-03 06:23:37) [GET]
+  Parameters: {"controller"=>"roles", "id"=>"2", "action"=>"edit"}
+Rendering template within layouts/admin
+Rendering roles/edit
+Completed in 93ms (View: 89, DB: 1) | 200 OK [http://teste.viniciusoyama.com/roles/edit/2]
+
+
+Processing RolesController#edit (for 187.22.169.73 at 2012-03-03 06:23:39) [POST]
+  Parameters: {"controller"=>"roles", "role"=>{"permissions"=>[""]}, "id"=>"2", "commit"=>"Save", "action"=>"edit", "authenticity_token"=>"Y3sLjvGDywXk8kinDvmYN054kjYicxKK/YGaA9lePPM="}
+Redirected to http://teste.viniciusoyama.com/roles
+Completed in 16ms (DB: 10) | 302 Found [http://teste.viniciusoyama.com/roles/edit/2]
+
+
+Processing RolesController#index (for 187.22.169.73 at 2012-03-03 06:23:39) [GET]
+  Parameters: {"controller"=>"roles", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering roles/list
+Completed in 46ms (View: 42, DB: 1) | 200 OK [http://teste.viniciusoyama.com/roles]
+
+
+Processing RolesController#report (for 187.22.169.73 at 2012-03-03 06:23:42) [GET]
+  Parameters: {"controller"=>"roles", "action"=>"report"}
+Rendering template within layouts/admin
+Rendering roles/report
+Completed in 131ms (View: 127, DB: 1) | 200 OK [http://teste.viniciusoyama.com/roles/report]
+
+
+Processing ProjectsController#activity (for 187.22.169.73 at 2012-03-03 06:23:53) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"escala", "action"=>"activity"}
+Rendering template within layouts/base
+Rendering projects/activity
+Completed in 128ms (View: 91, DB: 9) | 200 OK [http://teste.viniciusoyama.com/projects/escala/activity]
+
+
+Processing ProjectsController#show (for 187.22.169.73 at 2012-03-03 06:23:54) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"escala", "action"=>"show"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 40ms (View: 21, DB: 3) | 200 OK [http://teste.viniciusoyama.com/projects/escala]
+
+
+Processing ProjectsController#index (for 187.22.169.73 at 2012-03-03 06:23:55) [GET]
+  Parameters: {"controller"=>"projects", "action"=>"index"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 19ms (View: 13, DB: 1) | 200 OK [http://teste.viniciusoyama.com/projects]
+
+
+Processing ProjectsController#show (for 187.22.169.73 at 2012-03-03 06:23:59) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"escala", "action"=>"show"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 33ms (View: 16, DB: 2) | 200 OK [http://teste.viniciusoyama.com/projects/escala]
+
+
+Processing TimesheetController#index (for 187.22.169.73 at 2012-03-03 06:24:01) [GET]
+  Parameters: {"controller"=>"timesheet", "action"=>"index"}
+Rendering template within layouts/base
+Rendering timesheet/index
+Completed in 53ms (View: 40, DB: 7) | 200 OK [http://teste.viniciusoyama.com/timesheet]
+
+
+Processing ProjectsController#show (for 187.22.169.73 at 2012-03-03 06:24:09) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"escala", "action"=>"show"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 32ms (View: 15, DB: 2) | 200 OK [http://teste.viniciusoyama.com/projects/escala]
+
+
+Processing ProjectsController#activity (for 187.22.169.73 at 2012-03-03 06:24:11) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"escala", "action"=>"activity"}
+Rendering template within layouts/base
+Rendering projects/activity
+Completed in 46ms (View: 21, DB: 3) | 200 OK [http://teste.viniciusoyama.com/projects/escala/activity]
+
+
+Processing IssuesController#new (for 187.22.169.73 at 2012-03-03 06:24:24) [GET]
+  Parameters: {"controller"=>"issues", "project_id"=>"escala", "action"=>"new"}
+Rendering template within layouts/base
+Rendering common/403 (403)
+Filter chain halted as [:authorize] rendered_or_redirected.
+Completed in 14ms (View: 7, DB: 1) | 403 Forbidden [http://teste.viniciusoyama.com/projects/escala/issues/new]
+
+
+Processing WelcomeController#index (for 187.22.169.73 at 2012-03-03 06:24:31) [GET]
+  Parameters: {"controller"=>"welcome", "action"=>"index"}
+Rendering template within layouts/base
+Rendering welcome/index
+Completed in 25ms (View: 16, DB: 1) | 200 OK [http://teste.viniciusoyama.com/]
+
+
+Processing MyController#page (for 187.22.169.73 at 2012-03-03 06:24:32) [GET]
+  Parameters: {"controller"=>"my", "action"=>"page"}
+Rendering template within layouts/base
+Rendering my/page
+Completed in 123ms (View: 116, DB: 3) | 200 OK [http://teste.viniciusoyama.com/my/page]
+
+
+Processing ProjectsController#index (for 187.22.169.73 at 2012-03-03 06:24:33) [GET]
+  Parameters: {"controller"=>"projects", "action"=>"index"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 16ms (View: 12, DB: 1) | 200 OK [http://teste.viniciusoyama.com/projects]
+
+
+Processing ProjectsController#index (for 187.22.169.73 at 2012-03-03 06:25:06) [GET]
+  Parameters: {"controller"=>"projects", "action"=>"index"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 23ms (View: 17, DB: 2) | 200 OK [http://teste.viniciusoyama.com/projects]
+
+
+Processing ProjectsController#show (for 187.22.169.73 at 2012-03-03 06:25:08) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"codus", "action"=>"show"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 47ms (View: 28, DB: 5) | 200 OK [http://teste.viniciusoyama.com/projects/codus]
+
+
+Processing ProjectsController#settings (for 187.22.169.73 at 2012-03-03 06:25:11) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"codus", "action"=>"settings"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 75ms (View: 65, DB: 4) | 200 OK [http://teste.viniciusoyama.com/projects/codus/settings]
+
+
+Processing ProjectsController#edit (for 187.22.169.73 at 2012-03-03 06:25:19) [POST]
+  Parameters: {"controller"=>"projects", "id"=>"codus", "commit"=>"Save", "project"=>{"is_public"=>"0", "parent_id"=>"", "name"=>"Codus", "homepage"=>"", "description"=>"Empresa", "tracker_ids"=>["1", "2", "3", ""]}, "action"=>"edit", "authenticity_token"=>"Y3sLjvGDywXk8kinDvmYN054kjYicxKK/YGaA9lePPM="}
+Redirected to http://teste.viniciusoyama.com/projects/codus/settings
+Completed in 33ms (DB: 13) | 302 Found [http://teste.viniciusoyama.com/projects/edit/codus]
+
+
+Processing ProjectsController#settings (for 187.22.169.73 at 2012-03-03 06:25:19) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"codus", "action"=>"settings"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 72ms (View: 62, DB: 4) | 200 OK [http://teste.viniciusoyama.com/projects/codus/settings]
+
+
+Processing ProjectsController#index (for 187.22.169.73 at 2012-03-03 06:25:24) [GET]
+  Parameters: {"controller"=>"projects", "action"=>"index"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 94ms (View: 89, DB: 2) | 200 OK [http://teste.viniciusoyama.com/projects]
+
+
+Processing ProjectsController#show (for 187.22.169.73 at 2012-03-03 06:25:25) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"escala", "action"=>"show"}
+Rendering template within layouts/base
+Rendering projects/show
+Completed in 41ms (View: 23, DB: 5) | 200 OK [http://teste.viniciusoyama.com/projects/escala]
+
+
+Processing ProjectsController#activity (for 187.22.169.73 at 2012-03-03 06:25:32) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"escala", "action"=>"activity"}
+Rendering template within layouts/base
+Rendering projects/activity
+Completed in 62ms (View: 35, DB: 6) | 200 OK [http://teste.viniciusoyama.com/projects/escala/activity]
+
+
+Processing IssuesController#index (for 187.22.169.73 at 2012-03-03 06:25:33) [GET]
+  Parameters: {"controller"=>"issues", "project_id"=>"escala", "action"=>"index"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 117ms (View: 87, DB: 5) | 200 OK [http://teste.viniciusoyama.com/projects/escala/issues]
+
+
+Processing ProjectsController#settings (for 187.22.169.73 at 2012-03-03 06:25:35) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"escala", "action"=>"settings"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 72ms (View: 62, DB: 4) | 200 OK [http://teste.viniciusoyama.com/projects/escala/settings]
+
+
+Processing ProjectsController#edit (for 187.22.169.73 at 2012-03-03 06:25:40) [POST]
+  Parameters: {"controller"=>"projects", "id"=>"escala", "commit"=>"Save", "project"=>{"is_public"=>"0", "parent_id"=>"", "name"=>"Escala", "homepage"=>"", "description"=>"Projetos feitos para escala", "tracker_ids"=>["1", "2", "3", ""]}, "action"=>"edit", "authenticity_token"=>"Y3sLjvGDywXk8kinDvmYN054kjYicxKK/YGaA9lePPM="}
+Redirected to http://teste.viniciusoyama.com/projects/escala/settings
+Completed in 111ms (DB: 12) | 302 Found [http://teste.viniciusoyama.com/projects/edit/escala]
+
+
+Processing ProjectsController#settings (for 187.22.169.73 at 2012-03-03 06:25:40) [GET]
+  Parameters: {"controller"=>"projects", "id"=>"escala", "action"=>"settings"}
+Rendering template within layouts/base
+Rendering projects/settings
+Completed in 79ms (View: 69, DB: 4) | 200 OK [http://teste.viniciusoyama.com/projects/escala/settings]
+
+
+Processing ProjectsController#index (for 187.22.169.73 at 2012-03-03 06:25:42) [GET]
+  Parameters: {"controller"=>"projects", "action"=>"index"}
+Rendering template within layouts/base
+Rendering projects/index
+Completed in 14ms (View: 9, DB: 1) | 200 OK [http://teste.viniciusoyama.com/projects]
+
+
+Processing IssuesController#index (for 187.22.169.73 at 2012-03-03 06:26:10) [GET]
+  Parameters: {"controller"=>"issues", "project_id"=>"escala", "action"=>"index"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 96ms (View: 75, DB: 5) | 200 OK [http://teste.viniciusoyama.com/projects/escala/issues]
+
+
+Processing IssuesController#index (for 187.22.169.73 at 2012-03-03 06:26:16) [GET]
+  Parameters: {"controller"=>"issues", "project_id"=>"escala", "set_filter"=>"1", "action"=>"index", "authenticity_token"=>"Y3sLjvGDywXk8kinDvmYN054kjYicxKK/YGaA9lePPM="}
+Rendering issues/index.rhtml
+Completed in 83ms (View: 60, DB: 2) | 200 OK [http://teste.viniciusoyama.com/projects/escala/issues?set_filter=1&authenticity_token=Y3sLjvGDywXk8kinDvmYN054kjYicxKK%2FYGaA9lePPM%3D]
+
+
+Processing IssuesController#index (for 187.22.169.73 at 2012-03-03 06:26:27) [GET]
+  Parameters: {"controller"=>"issues", "project_id"=>"escala", "set_filter"=>"1", "action"=>"index"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 174ms (View: 73, DB: 14) | 200 OK [http://teste.viniciusoyama.com/projects/escala/issues?set_filter=1]
+
+
+Processing IssuesController#show (for 187.22.169.73 at 2012-03-03 06:26:29) [GET]
+  Parameters: {"controller"=>"issues", "id"=>"5", "action"=>"show"}
+Rendering template within layouts/base
+Rendering issues/show.rhtml
+Completed in 109ms (View: 88, DB: 7) | 200 OK [http://teste.viniciusoyama.com/issues/5]
+
+
+Processing IssuesController#destroy (for 187.22.169.73 at 2012-03-03 06:26:33) [POST]
+  Parameters: {"controller"=>"issues", "id"=>"5", "action"=>"destroy", "authenticity_token"=>"Y3sLjvGDywXk8kinDvmYN054kjYicxKK/YGaA9lePPM="}
+Redirected to http://teste.viniciusoyama.com/projects/escala/issues
+Completed in 22ms (DB: 12) | 302 Found [http://teste.viniciusoyama.com/issues/5/destroy]
+
+
+Processing IssuesController#index (for 187.22.169.73 at 2012-03-03 06:26:33) [GET]
+  Parameters: {"controller"=>"issues", "project_id"=>"escala", "action"=>"index"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 91ms (View: 73, DB: 4) | 200 OK [http://teste.viniciusoyama.com/projects/escala/issues]
+
+
+Processing IssuesController#show (for 187.22.169.73 at 2012-03-03 06:26:36) [GET]
+  Parameters: {"controller"=>"issues", "id"=>"4", "action"=>"show"}
+Rendering template within layouts/base
+Rendering issues/show.rhtml
+Completed in 172ms (View: 75, DB: 17) | 200 OK [http://teste.viniciusoyama.com/issues/4]
+
+
+Processing IssuesController#destroy (for 187.22.169.73 at 2012-03-03 06:26:38) [POST]
+  Parameters: {"controller"=>"issues", "id"=>"4", "action"=>"destroy", "authenticity_token"=>"Y3sLjvGDywXk8kinDvmYN054kjYicxKK/YGaA9lePPM="}
+Redirected to http://teste.viniciusoyama.com/projects/escala/issues
+Completed in 25ms (DB: 17) | 302 Found [http://teste.viniciusoyama.com/issues/4/destroy]
+
+
+Processing IssuesController#index (for 187.22.169.73 at 2012-03-03 06:26:39) [GET]
+  Parameters: {"controller"=>"issues", "project_id"=>"escala", "action"=>"index"}
+Rendering template within layouts/base
+Rendering issues/index.rhtml
+Completed in 73ms (View: 55, DB: 4) | 200 OK [http://teste.viniciusoyama.com/projects/escala/issues]
+
+
+Processing AdminController#index (for 187.22.169.73 at 2012-03-03 06:27:01) [GET]
+  Parameters: {"controller"=>"admin", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering admin/index
+Completed in 14ms (View: 11, DB: 1) | 200 OK [http://teste.viniciusoyama.com/admin]
+
+
+Processing SettingsController#index (for 187.22.169.73 at 2012-03-03 06:27:03) [GET]
+  Parameters: {"controller"=>"settings", "action"=>"index"}
+Rendering template within layouts/admin
+Rendering settings/edit
+Completed in 191ms (View: 183, DB: 4) | 200 OK [http://teste.viniciusoyama.com/settings]

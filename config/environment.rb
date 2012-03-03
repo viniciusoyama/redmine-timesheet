@@ -58,3 +58,13 @@ Rails::Initializer.run do |config|
     instance_eval File.read(File.join(File.dirname(__FILE__), 'additional_environment.rb'))
   end
 end
+
+ActionMailer::Base.smtp_settings = {
+    :tls => true,
+    :address => "smtp.gmail.com",
+    :port => "587",
+    :domain => "www.codus.com.br",
+    :authentication => :plain,
+    :user_name => "vinicius.oyama@codus.com.br",
+    :password => "c0dus4321"
+  }

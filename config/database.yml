@@ -10,24 +10,24 @@ production:
   adapter: mysql
   database: redmine
   host: localhost
-  username: root
-  password:
+  username: redmine
+  password: redrox
   encoding: utf8
  
 development:
     adapter: mysql
     database: redmine
     host: localhost
-    username: root
-    password:
+    username: redmine
+    password: redrox
     encoding: utf8
 
 test:
     adapter: mysql
     database: redmine
     host: localhost
-    username: root
-    password:
+    username: redmine
+    password: redrox
     encoding: utf8
 
 test_pgsql:
